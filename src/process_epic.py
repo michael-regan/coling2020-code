@@ -24,7 +24,7 @@ participant_id,video_id,start_timestamp,stop_timestamp,narration
 Sample command line:
 
 python3 process_epic.py \
---epic_narration_path './epic_training.csv'
+--epic_narration_path '../data/epic_training.csv'
 
 """
 
@@ -76,7 +76,7 @@ def read_epics(path):
 
 	df = pd.read_csv(path)
 
-	all_video_ids
+	all_video_ids = []
 
 	for idx, row in df.iterrows():
 
