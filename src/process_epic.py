@@ -87,7 +87,7 @@ def read_epics(path):
 
 	all_lengths_files = []
 
-	for k, v in length_files:
+	for k, v in length_files.items():
 		all_lengths_files.append(v)
 
 	print("Mean number of utts per file:", np.mean(all_lengths_files))
