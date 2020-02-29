@@ -11,11 +11,16 @@ from stanfordcorenlp import StanfordCoreNLP
 
 
 
+
+
 """
 Objective:
 
 columns in epic_narration.csv
 participant_id,video_id,start_timestamp,stop_timestamp,narration
+
+columns in epic_train_action_labels.csv
+uid,participant_id,video_id,narration,start_timestamp,stop_timestamp,start_frame,stop_frame,verb,verb_class,noun,noun_class,all_nouns,all_noun_classes
 
 
 """
@@ -24,7 +29,7 @@ participant_id,video_id,start_timestamp,stop_timestamp,narration
 Sample command line:
 
 python3 process_epic.py \
---epic_narration_path '../data/epic_training.csv'
+--epic_narration_path '../data/epic_train_action_labels.csv'
 
 """
 
