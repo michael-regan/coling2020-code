@@ -65,16 +65,20 @@ def read_epics(path):
 	all_nouns = list(set(all_nouns))
 
 	print("Number of video files:", len(all_video_ids))
-	print("Number of verbs:", len(all_verbs))
-	print("Number of nouns:", len(all_nouns))
+	print("Number of total verbs:", len(all_verbs))
+	print("Number of total nouns:", len(all_nouns))
 
 	length_coref = []
+
+	num_entities_per_file = []
 
 	for k, v in coref_grouped_by_narration.items():
 		for key, num_coref in v.items():
 			length_coref.append(num_coref)
+		num_entities_per_file.append(len(v))
 
 	print("Mean length coref chain per file:", np.mean(length_coref))
+	print("Mean number of entities per file:", np.mean(num_entities_per_file))
 
 
 
