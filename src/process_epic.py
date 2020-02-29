@@ -107,9 +107,10 @@ def main():
 	d = datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
 	print(d)
 	print()
-	print("Analysing EPICs Recipes data (counting entities and actions")
+	print("Analysing EPICs Recipes data (counting entities and actions)")
 	print()
 
+	read_epics(opt.epic_narration_path)
 
 
 
