@@ -2,6 +2,7 @@
 
 import argparse
 import csv
+import os
 import pandas as pd
 
 from collections import defaultdict
