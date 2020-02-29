@@ -82,16 +82,27 @@ def read_epics(path):
 	df = pd.read_csv(path)
 
 	all_video_ids = []
+	all_verbs = []
+	all_nouns = []
 
 	for idx, row in df.iterrows():
 
 		video_id = row.video_id
 		narr = row.narration
+		verb = row.verb
+		noun = row.noun
 
-		if video_id not in all_video_ids:
-			all_video_ids.append(video_id)
+		all_video_ids.append(video_id)
+		all_verbs.append(verb)
+		all_nouns.append(noun)
+
+	all_video_ids = list(set(all_video_ids))
+	all_verbs = list(set(all_verbs))
+	all_nouns = list(set(all_nouns))
 
 	print("Number of video files:", len(all_video_ids))
+	print("Number of verbs:", len(all_verbs))
+	print("Number of nouns:", len(all_nouns))
 
 
 
