@@ -39,6 +39,8 @@ def read_epics(path):
 	all_verbs = []
 	all_nouns = []
 
+	all_narration_lengths = []
+
 	# grouping by narration so to count number coref chains
 	coref_grouped_by_narration = {}
 
@@ -47,9 +49,11 @@ def read_epics(path):
 	for idx, row in df.iterrows():
 
 		video_id = row.video_id
-		narr = row.narration
 		verb = row.verb
 		noun = row.noun
+		narration = row.narration
+
+		all_narration_lengths.append(len(narration.split()))
 
 		if video_id not in coref_grouped_by_narration:
 			coref_grouped_by_narration[video_id] = defaultdict(int)
@@ -83,6 +87,7 @@ def read_epics(path):
 
 	print("Mean length coref chain per file:", np.mean(length_coref))
 	print("Mean number of entities per file:", np.mean(num_entities_per_file))
+	print("Mean number of tokens per file:", np.mean(all_narration_lengths))
 
 
 	all_lengths_files = []
