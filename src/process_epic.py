@@ -78,15 +78,21 @@ def read_epics(path):
 
 	length_coref = []
 
-	num_entities_per_file = []
+	num_unique_entities_per_file = []
+
+	cnt_all_entities_per_file = []
 
 	for k, v in coref_grouped_by_narration.items():
+		cnt_entities = 0
 		for key, num_coref in v.items():
 			length_coref.append(num_coref)
-		num_entities_per_file.append(len(v))
+			cnt_entities += num_coref
+		num_unique_entities_per_file.append(len(v))
+		cnt_all_entities_per_file.append(cnt_entities)
 
 	print("Mean length coref chain per file:", np.mean(length_coref))
-	print("Mean number of entities per file:", np.mean(num_entities_per_file))
+	print("Mean number of unique entities per file:", np.mean(num_unique_entities_per_file))
+	print("Mean count of all entities per file:", np.mean(cnt_all_entities_per_file))
 	print("Mean number of tokens per file:", np.mean(all_narration_lengths))
 
 
