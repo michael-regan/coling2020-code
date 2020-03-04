@@ -46,6 +46,8 @@ python3 analyze_npn_cooking_bosselut.py \
 
 
 def analyze_recipes(path):
+
+	cnt_files = 0
 	
 	all_cnt_utts = []
 	all_cnt_tokens = []
@@ -69,6 +71,8 @@ def analyze_recipes(path):
 		cnt_vocab_verbs_from_verbs = defaultdict(int)	
 
 		with open(file, 'r') as f:
+
+			cnt_files += 1
 
 			data = json.load(f)
 
