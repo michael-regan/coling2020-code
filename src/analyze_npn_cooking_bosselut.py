@@ -40,7 +40,7 @@ For "train" recipes, two additional keys are as follows (if needed):
 Sample command line:
 
 python3 analyze_npn_cooking_bosselut.py \
---recipes_path '~/src/data/cooking_dataset/'
+--recipes_path '/nfs/research/regan/src/data/cooking_dataset/'
 
 """
 
