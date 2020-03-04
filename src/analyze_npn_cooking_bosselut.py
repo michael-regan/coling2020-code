@@ -40,49 +40,66 @@ For "train" recipes, two additional keys are as follows (if needed):
 Sample command line:
 
 python3 analyze_npn_cooking_bosselut.py \
---recipes_path '/nfs/research/regan/src/data/cooking_dataset/'
+--recipes_path '/nfs/research/regan/src/data/cooking_dataset/recipes/'
 
 """
 
 
-def get_recipes(path):
+def analyze_recipes(path):
+	
+	all_cnt_utts = []
+	all_cnt_tokens = []
+	
+	length_coref_chains_per_file = {}
+
+	all_vocab_nouns = []
+	all_vocab_verbs = []
+
+	
 
 	os.chdir(path)
 
 	for file in glob.glob("*.json"):
-		print(file)
+
+		length_utts = 0
+		cnt_utts = 0
+
+		# used as proxy for fd-entities
+		cnt_vocab_nouns_from_ingredient_list = defaultdict(int)
+		cnt_vocab_verbs_from_verbs = defaultdict(int)	
+
+		with open(file, 'r') as f:
+
+			data = json.load(f)
+
+			# process length of all utts in 'text'
+			text = data['text']
+
+			for step, utt in text.items():
+
+				length_utts += len(utt.split())
+				cnt_utts += 1
+
+			all_cnt_tokens.append(length_utts)
+			all_cnt_utts.append(cnt_utts)
 
 
-	# print("Number of video files:", len(all_video_ids))
+
+
+	print("Number of recipe files:", cnt_files)
+	print("Mean number of tokens per file:", np.mean(all_cnt_tokens))
+	print("Mean number of utts per file:", np.mean(all_cnt_utts))
+
+
 	# print("Number of total verbs:", len(all_verbs))
 	# print("Number of total nouns:", len(all_nouns))
-
-	# length_coref = []
-
-	# num_unique_entities_per_file = []
-
-	# cnt_all_entities_per_file = []
-
-	# for k, v in coref_grouped_by_narration.items():
-	# 	cnt_entities = 0
-	# 	for key, num_coref in v.items():
-	# 		length_coref.append(num_coref)
-	# 		cnt_entities += num_coref
-	# 	num_unique_entities_per_file.append(len(v))
-	# 	cnt_all_entities_per_file.append(cnt_entities)
 
 	# print("Mean length coref chain per file:", np.mean(length_coref))
 	# print("Mean number of unique entities per file:", np.mean(num_unique_entities_per_file))
 	# print("Mean count of all entities per file:", np.mean(cnt_all_entities_per_file))
-	# print("Mean number of tokens per file:", np.mean(all_narration_lengths))
+	
 
-
-	# all_lengths_files = []
-
-	# for k, v in length_files.items():
-	# 	all_lengths_files.append(v)
-
-	# print("Mean number of utts per file:", np.mean(all_lengths_files))
+	
 
 
 
@@ -107,7 +124,7 @@ def main():
 	print("Analysing NPN recipes dataset (121K json files)")
 	print()
 
-	recipes_data = get_recipes(opt.recipes_path)
+	analyze_recipes(opt.recipes_path)
 
 
 
