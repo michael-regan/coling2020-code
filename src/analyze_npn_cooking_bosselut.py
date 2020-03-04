@@ -105,17 +105,18 @@ def analyze_recipes(path):
 	length_coref_all_fd_entities = []
 	cnt_number_fd_entities_per_recipe = []
 
-	for recipe in all_recipes_noun_counts:
+	for recipe_noun_count in all_recipes_noun_counts:
 
 		cnt_number_fd_entities_per_recipe.append(len(recipe))
 		
 		# each recipe is a defaultdict count the number of entities and their frequencies
 
 		this_recipe_coref = []
-		for ingred, count in recipe.items():
+		for ingred, count in recipe_noun_count.items():
 			this_recipe_coref.append(count)
 
-		length_coref_all_fd_entities.append(np.mean(this_recipe_coref))
+		if len(this_recipe_coref) > 0:
+			length_coref_all_fd_entities.append(np.mean(this_recipe_coref))
 
 
 	print("Mean number of unique fd-entities per file:", np.mean(cnt_number_fd_entities_per_recipe))
