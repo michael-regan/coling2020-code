@@ -107,7 +107,7 @@ def analyze_recipes(path):
 
 	for recipe_noun_count in all_recipes_noun_counts:
 
-		cnt_number_fd_entities_per_recipe.append(len(recipe))
+		cnt_number_fd_entities_per_recipe.append(len(recipe_noun_count))
 		
 		# each recipe is a defaultdict count the number of entities and their frequencies
 
