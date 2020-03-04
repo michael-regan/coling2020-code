@@ -50,7 +50,7 @@ def get_recipes(path):
 	os.chdir(path)
 
 	for file in glob.glob("*.json"):
-    	print(file)
+		print(file)
 
 
 	# print("Number of video files:", len(all_video_ids))
