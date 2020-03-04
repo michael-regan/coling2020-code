@@ -54,10 +54,9 @@ def analyze_recipes(path):
 	
 	length_coref_chains_per_file = {}
 
-	all_vocab_nouns = []
-	all_vocab_verbs = []
+	all_recipes_noun_counts = []
+	all_vocab_verbs_fd_events = []
 
-	
 
 	os.chdir(path)
 
@@ -67,7 +66,7 @@ def analyze_recipes(path):
 		cnt_utts = 0
 
 		# used as proxy for fd-entities
-		cnt_vocab_nouns_from_ingredient_list = defaultdict(int)
+		cnt_vocab_nouns_from_ingredients = defaultdict(int)
 		cnt_vocab_verbs_from_verbs = defaultdict(int)	
 
 		with open(file, 'r') as f:
@@ -88,6 +87,14 @@ def analyze_recipes(path):
 			all_cnt_utts.append(cnt_utts)
 
 
+			ingredients = data['ingredients']
+
+			for step, arr in ingredients.items():
+
+				for ingred in arr:
+					cnt_vocab_nouns_from_ingredients[ingred] += 1
+
+			all_recipes_noun_counts.append(cnt_vocab_nouns_from_ingredients)
 
 
 	print("Number of recipe files:", cnt_files)
@@ -95,11 +102,31 @@ def analyze_recipes(path):
 	print("Mean number of utts per file:", np.mean(all_cnt_utts))
 
 
+	length_coref_all_fd_entities = []
+	cnt_number_fd_entities_per_recipe = []
+
+	for recipe in all_recipes_noun_counts:
+
+		cnt_number_fd_entities_per_recipe.append(len(recipe))
+		
+		# each recipe is a defaultdict count the number of entities and their frequencies
+
+		this_recipe_coref = []
+		for ingred, count in recipe.items():
+			this_recipe_coref.append(count)
+
+		length_coref_all_fd_entities.append(np.mean(this_recipe_coref))
+
+
+	print("Mean number of unique fd-entities per file:", np.mean(cnt_number_fd_entities_per_recipe))
+	print("Mean length coref chain per file:", np.mean(length_coref_all_fd_entities))
+
+
 	# print("Number of total verbs:", len(all_verbs))
 	# print("Number of total nouns:", len(all_nouns))
 
-	# print("Mean length coref chain per file:", np.mean(length_coref))
-	# print("Mean number of unique entities per file:", np.mean(num_unique_entities_per_file))
+	
+	
 	# print("Mean count of all entities per file:", np.mean(cnt_all_entities_per_file))
 	
 
