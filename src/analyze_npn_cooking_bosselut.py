@@ -77,7 +77,7 @@ def analyze_recipes(path):
 
 			for step, utt in text.items():
 
-				length_utts += len(utt.split())
+				length_utts += len(utt)
 				cnt_utts += 1
 
 			all_cnt_tokens.append(length_utts)
