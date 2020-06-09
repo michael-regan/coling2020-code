@@ -1561,7 +1561,7 @@
     },
     {
         "sentence": "On July 2, 1987, the tanker S.S. Glacier Bay struck a rock and spilled almost 150,000 gallons of oil into the Cook",
-        "tgt_token": "oil",
+        "tgt_token": "gallons",
         "property": "+MER",
         "response": 5,
         "roleset": "spill.01",
@@ -1600,8 +1600,8 @@
         "sentence_id": "0766_16"
     },
     {
-        "sentence": "While she works inside, a tenant returns with several friends to collect furniture and clothing.",
-        "tgt_token": "friends",
+        "sentence": "While she works inside, her boyfriend walks to the park to smoke.",
+        "tgt_token": "boyfriend",
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
@@ -1645,6 +1645,14 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "pile.03",
+        "sentence_id": "0725_1"
+    },
+    {
+        "sentence": "They pile out of their truck and furiously begin twisting together steel pipes linking a giant storage tank to the",
+        "tgt_token": "pipes",
+        "property": "INTL",
+        "response": 5,
+        "roleset": "twist.01",
         "sentence_id": "0725_1"
     },
     {
@@ -2483,7 +2491,7 @@
         "tgt_token": "QUINTAO",
         "property": "VOL",
         "sentence_id": "PROXY_AFP_ENG_20020408_0348"},
-    {"sentence": "A. N.R. MOHANTY STATED THAT AN AGREEMENT HAD BEEN SIGNED BETWEEN THE DEFENSE RESEARCH AND DEVELOPMENT ORGANISATION , HINDUSTAN AERONAUTICS LIMITED AND THE INDIAN AIR FORCE TO UPGRADE INDIA"S AGEING FLEET OF MIG-27 M AIRCRAFT .",
+    {"sentence": "A. N.R. MOHANTY STATED THAT AN AGREEMENT HAD BEEN SIGNED BETWEEN THE DEFENSE RESEARCH AND DEVELOPMENT ORGANISATION , HINDUSTAN AERONAUTICS LIMITED AND THE INDIAN AIR FORCE TO UPGRADE INDIA'S AGEING FLEET OF MIG-27 M AIRCRAFT .",
         "tgt_token": "FLEET",
         "property": "COS",
         "sentence_id": "PROXY_AFP_ENG_20020404_0305"},
