@@ -1906,7 +1906,7 @@
     {
         "sentence": "Days later, the thieves returned and dug out more, this time adding insult to injury.",
         "tgt_token": "thieves",
-        "property": "VOL:MOT",
+        "property": "VOL::MOT",
         "response": 5,
         "roleset": "dig.03",
         "sentence_id": "1379_2"
