@@ -255,7 +255,7 @@
     {
         "sentence": "I played very transparently, with the tip of the bow.",
         "tgt_token": "tip",
-        "property": "EXIST",
+        "property": "INTL",
         "response": 5,
         "roleset": "play.01",
         "sentence_id": "1388_39",
@@ -2850,12 +2850,6 @@
     {"sentence": "I closed it , noticed it was a bit stiff to close and started cleaning the house as I do every thurs night .",
         "tgt_token": "house",
         "property": "COS",
-        "sentence_id": "1b268b27094ba9c5feb11192dad940ab",
-        "type": "physical"
-    },
-    {"sentence": "When I got to our bedroom I noticed OH's safe which is screwed to the wall at the bottom of our wardrobe was missing .",
-        "tgt_token": "safe",
-        "property": "MOT",
         "sentence_id": "1b268b27094ba9c5feb11192dad940ab",
         "type": "physical"
     },
