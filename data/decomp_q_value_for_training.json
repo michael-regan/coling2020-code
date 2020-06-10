@@ -5,7 +5,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "listen.01",
-        "sentence_id": "0633_10"
+        "sentence_id": "0633_10",
+        "type": "nonphysical"
     },
     {
         "sentence": "They learned they could survive it without much problem. ''",
@@ -13,7 +14,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "learn.01",
-        "sentence_id": "2384_29"
+        "sentence_id": "2384_29",
+        "type": "nonphysical"
     },
     {
         "sentence": "President F.W. de Klerk released the ANC men--along with one of the founding members of the Pan Africanist Congress, a",
@@ -21,15 +23,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "release.01",
-        "sentence_id": "2454_18"
+        "sentence_id": "2454_18",
+        "type": "nonphysical"
     },
     {
-        "sentence": "She won grant money for the school, advised cheerleaders, ran the pep club, proposed and taught a new `` Cultural",
+        "sentence": "She won grant money for the school, advised cheerleaders, ran the pep club",
         "tgt_token": "She",
         "property": "VOL",
         "response": 5,
         "roleset": "run.01",
-        "sentence_id": "0044_63"
+        "sentence_id": "0044_63",
+        "type": "nonphysical"
     },
     {
         "sentence": "Employees wore identification badges listing not only their names but also their dates of hire.",
@@ -37,7 +41,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "wear.01",
-        "sentence_id": "0286_1"
+        "sentence_id": "0286_1",
+        "type": "physical"
     },
     {
         "sentence": "Employees wore identification badges listing not only their names but also their dates of hire.",
@@ -45,7 +50,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "wear.01",
-        "sentence_id": "0286_1"
+        "sentence_id": "0286_1",
+        "type": "physical"
     },
     {
         "sentence": "The president also hinted he might veto this year's intelligence authorization bill if it is too restrictive.",
@@ -53,7 +59,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "hint.01",
-        "sentence_id": "0590_15"
+        "sentence_id": "0590_15",
+        "type": "nonphysical"
     },
     {
         "sentence": "It runs out frantically now and then, and is clearly pretty distressed.",
@@ -61,7 +68,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "run.XX",
-        "sentence_id": "1778_83"
+        "sentence_id": "1778_83",
+        "type": "physical"
     },
     {
         "sentence": "Dr. Kobayashi responded that he thought the antibody could potentially kill all infected cells.",
@@ -69,7 +77,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "respond.01",
-        "sentence_id": "1246_17"
+        "sentence_id": "1246_17",
+        "type": "nonphysical"
     },
     {
         "sentence": "Dr. Kobayashi responded that he thought the antibody could potentially kill all infected cells.",
@@ -77,7 +86,17 @@
         "property": "COS",
         "response": 5,
         "roleset": "respond.01",
-        "sentence_id": "1246_17"
+        "sentence_id": "1246_17",
+        "type": "physical"
+    },
+    {
+        "sentence": "Dr. Kobayashi responded that he thought the antibody could potentially kill all infected cells.",
+        "tgt_token": "antibody",
+        "property": "INTL",
+        "response": 5,
+        "roleset": "respond.01",
+        "sentence_id": "1246_17",
+        "type": "physical"
     },
     {
         "sentence": "The chairman promised Mr. Stone a decision within two weeks.",
@@ -85,7 +104,9 @@
         "property": "VOL",
         "response": 5,
         "roleset": "promise.01",
-        "sentence_id": "1504_11"
+        "sentence_id": "1504_11",
+        "type": "nonphysical"
+
     },
     {
         "sentence": "He produced it.",
@@ -93,7 +114,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "produce.01",
-        "sentence_id": "1603_20"
+        "sentence_id": "1603_20",
+        "type": "physical"
     },
     {
         "sentence": "He produced it.",
@@ -101,15 +123,17 @@
         "property": "DES",
         "response": 5,
         "roleset": "produce.01",
-        "sentence_id": "1603_20"
+        "sentence_id": "1603_20",
+        "type": "physical"
     },
     {
-        "sentence": "Mr. Azoff reportedly was bored and frequently clashed with top MCA management over a number of issues such as",
+        "sentence": "Mr. Azoff frequently clashed with top MCA management over a number of issues such as",
         "tgt_token": "Azoff",
         "property": "VOL",
         "response": 5,
         "roleset": "clash.01",
-        "sentence_id": "0408_10"
+        "sentence_id": "0408_10",
+        "type": "physical"
     },
     {
         "sentence": "Currently, Fox supplies programs on Saturdays, Sundays and Mondays, although the company plans to expand to other",
@@ -117,15 +141,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "supply.01",
-        "sentence_id": "1659_10"
+        "sentence_id": "1659_10",
+        "type": "nonphysical"
     },
     {
-        "sentence": "And they want the U.S. to help them sell overseas.",
+        "sentence": "and they want the U.S. to help them sell overseas.",
         "tgt_token": "they",
         "property": "VOL",
         "response": 5,
         "roleset": "want.01",
-        "sentence_id": "1474_43"
+        "sentence_id": "1474_43",
+        "type": "nonphysical"
     },
     {
         "sentence": "Cap added four more divisions to the Army, two active and two reserve ; two carrier groups to the Navy ; a",
@@ -133,7 +159,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "add.02",
-        "sentence_id": "2112_30"
+        "sentence_id": "2112_30",
+        "type": "nonphysical"
     },
     {
         "sentence": "Cap added four more divisions to the Army, two active and two reserve ; two carrier groups to the Navy ; a",
@@ -141,7 +168,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "add.02",
-        "sentence_id": "2112_30"
+        "sentence_id": "2112_30",
+        "type": "nonphysical"
     },
     {
         "sentence": "Cap added four more divisions to the Army, two active and two reserve ; two carrier groups to the Navy ; a",
@@ -149,7 +177,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "add.02",
-        "sentence_id": "2112_30"
+        "sentence_id": "2112_30",
+        "type": "nonphysical"
     },
     {
         "sentence": "Cap added four more divisions to the Army, two active and two reserve ; two carrier groups to the Navy ; a",
@@ -157,7 +186,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "add.02",
-        "sentence_id": "2112_30"
+        "sentence_id": "2112_30",
+        "type": "nonphysical"
     },
     {
         "sentence": "He targeted 7,500 shares of Reuters and punched a button to call up on his screen other dealers ' price quotes.",
@@ -165,7 +195,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "punch.01",
-        "sentence_id": "2205_27"
+        "sentence_id": "2205_27",
+        "type": "nonphysical"
     },
     {
         "sentence": "He targeted 7,500 shares of Reuters and punched a button to call up on his screen other dealers ' price quotes.",
@@ -173,7 +204,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "punch.01",
-        "sentence_id": "2205_27"
+        "sentence_id": "2205_27",
+        "type": "physical"
     },
     {
         "sentence": "At Air Products, meanwhile, the mailroom staff opens junk mail and often throws it away--even if addressed to an",
@@ -181,7 +213,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "throw.01",
-        "sentence_id": "0989_23"
+        "sentence_id": "0989_23",
+        "type": "physical"
     },
     {
         "sentence": "She now lives with relatives in Alabama.",
@@ -189,7 +222,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "live.01",
-        "sentence_id": "0281_10"
+        "sentence_id": "0281_10",
+        "type": "physical"
     },
     {
         "sentence": "She now lives with relatives in Alabama.",
@@ -197,31 +231,35 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "live.01",
-        "sentence_id": "0281_10"
+        "sentence_id": "0281_10",
+        "type": "physical"
     },
     {
-        "sentence": "And at the Treasury, Secretary Nicholas Brady talked with friends and associates on Wall Street while Assistant",
+        "sentence": "and at the Treasury, Secretary Nicholas Brady talked with friends and associates on Wall Street while Assistant",
         "tgt_token": "Brady",
         "property": "VOL",
         "response": 5,
         "roleset": "talk.01",
-        "sentence_id": "2413_2"
+        "sentence_id": "2413_2",
+        "type": "nonphysical"
     },
     {
-        "sentence": "`` I played very transparently, with the tip of the bow.",
+        "sentence": "I played very transparently, with the tip of the bow.",
         "tgt_token": "I",
         "property": "VOL",
         "response": 5,
         "roleset": "play.01",
-        "sentence_id": "1388_39"
+        "sentence_id": "1388_39",
+        "type": "physical"
     },
     {
-        "sentence": "`` I played very transparently, with the tip of the bow.",
+        "sentence": "I played very transparently, with the tip of the bow.",
         "tgt_token": "tip",
         "property": "EXIST",
         "response": 5,
         "roleset": "play.01",
-        "sentence_id": "1388_39"
+        "sentence_id": "1388_39",
+        "type": "physical"
     },
     {
         "sentence": "Soviet police clashed with demonstrators in Moscow following a candlelight vigil around the KGB's Lubyanka headquarters",
@@ -229,7 +267,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "clash.01",
-        "sentence_id": "0490_4"
+        "sentence_id": "0490_4",
+        "type": "physical"
     },
     {
         "sentence": "Soviet police clashed with demonstrators in Moscow following a candlelight vigil around the KGB's Lubyanka headquarters",
@@ -237,7 +276,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "clash.01",
-        "sentence_id": "0490_4"
+        "sentence_id": "0490_4",
+        "type": "physical"
     },
     {
         "sentence": "Petty criminals and street people looking for excitement attach themselves like remora to the fringes of the crowd and",
@@ -245,7 +285,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "attach.01",
-        "sentence_id": "0290_21"
+        "sentence_id": "0290_21",
+        "type": "nonphysical"
     },
     {
         "sentence": "Many went bargain-hunting.",
@@ -253,7 +294,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "go.05",
-        "sentence_id": "2276_2"
+        "sentence_id": "2276_2",
+        "type": "physical"
     },
     {
         "sentence": "I walked along Shattuck between Delaware and Cedar at a few minutes before eight this morning.",
@@ -261,7 +303,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "walk.01",
-        "sentence_id": "1778_139"
+        "sentence_id": "1778_139",
+        "type": "physical"
     },
     {
         "sentence": "I walked along Shattuck between Delaware and Cedar at a few minutes before eight this morning.",
@@ -269,7 +312,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "walk.01",
-        "sentence_id": "1778_139"
+        "sentence_id": "1778_139",
+        "type": "physical"
     },
     {
         "sentence": "They use 60 % more fertilizer per acre, twice the high-grade feed.",
@@ -277,15 +321,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "use.01",
-        "sentence_id": "1146_91"
+        "sentence_id": "1146_91",
+        "type": "physical"
     },
     {
         "sentence": "As the rally gained strength at 3:15 p.m., he smiled broadly, brandished his unlit cigar and slapped Stanley Shopkorn,",
         "tgt_token": "he",
-        "property": "VOL",
+        "property": "VOL::INTL",
         "response": 5,
         "roleset": "brandish.01",
-        "sentence_id": "2276_4"
+        "sentence_id": "2276_4",
+        "type": "physical"
     },
     {
         "sentence": "As the rally gained strength at 3:15 p.m., he smiled broadly, brandished his unlit cigar and slapped Stanley Shopkorn,",
@@ -293,7 +339,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "brandish.01",
-        "sentence_id": "2276_4"
+        "sentence_id": "2276_4",
+        "type": "physical"
     },
     {
         "sentence": "The assembly plant builds the Cadillac DeVille, Chevrolet Caprice and Oldsmobile Cutlass Ciera Wagon.",
@@ -301,7 +348,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "0775_2"
+        "sentence_id": "0775_2",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Shilling understands Mr. Straszheim's problems.",
@@ -309,7 +357,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "understand.01",
-        "sentence_id": "0569_51"
+        "sentence_id": "0569_51",
+        "type": "nonphysical"
     },
     {
         "sentence": "Most sleep on the floor.",
@@ -317,7 +366,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "sleep.01",
-        "sentence_id": "1603_37"
+        "sentence_id": "1603_37",
+        "type": "physical"
     },
     {
         "sentence": "Most sleep on the floor.",
@@ -325,7 +375,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "sleep.01",
-        "sentence_id": "1603_37"
+        "sentence_id": "1603_37",
+        "type": "physical"
     },
     {
         "sentence": "In February 1989, when the Soviets said they had completed their pullout, the U.S. cut it further.",
@@ -333,7 +384,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "cut.02",
-        "sentence_id": "2052_14"
+        "sentence_id": "2052_14",
+        "type": "nonphysical"
     },
     {
         "sentence": "In February 1989, when the Soviets said they had completed their pullout, the U.S. cut it further.",
@@ -341,7 +393,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "pullout.01",
-        "sentence_id": "2052_14"
+        "sentence_id": "2052_14",
+        "type": "nonphysical"
     },
     {
         "sentence": "On the Big Board floor and on trading desks, traders yelped their approval.",
@@ -349,7 +402,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "yelp.01",
-        "sentence_id": "2232_48"
+        "sentence_id": "2232_48",
+        "type": "nonphysical"
     },
     {
         "sentence": "But critics consider the changes regressive.",
@@ -357,15 +411,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "consider.01",
-        "sentence_id": "1270_41"
+        "sentence_id": "1270_41",
+        "type": "physical"
     },
     {
         "sentence": "More than 400 traders jammed the S&P 500 futures pit to await the opening bell.",
         "tgt_token": "traders",
-        "property": "VOL",
+        "property": "VOL::+MER",
         "response": 5,
         "roleset": "jam.01",
-        "sentence_id": "2168_9"
+        "sentence_id": "2168_9",
+        "type": "physical"
     },
     {
         "sentence": "More than 400 traders jammed the S&P 500 futures pit to await the opening bell.",
@@ -373,7 +429,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "jam.01",
-        "sentence_id": "2168_9"
+        "sentence_id": "2168_9",
+        "type": "physical"
     },
     {
         "sentence": "Recession or not, people still eat, smoke, and take medicine when they 're sick.",
@@ -381,7 +438,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "smoke.02",
-        "sentence_id": "1623_81"
+        "sentence_id": "1623_81",
+        "type": "physical"
     },
     {
         "sentence": "Frank grovels a little for the bookers, probably no more or less than he would have to if he worked for a big",
@@ -389,31 +447,26 @@
         "property": "VOL",
         "response": 5,
         "roleset": "grovel.01",
-        "sentence_id": "1831_28"
+        "sentence_id": "1831_28",
+        "type": "nonphysical"
     },
     {
-        "sentence": "The center improves the community image to outsiders as well, and may help to arrest, or even reverse, the exodus of",
-        "tgt_token": "center",
-        "property": "VOL",
-        "response": 5,
-        "roleset": "improve.01",
-        "sentence_id": "1436_12"
-    },
-    {
-        "sentence": "CONGRESSIONAL LEADERS BACKED Bush's criticism of Nicaragua's Ortega.",
-        "tgt_token": "LEADERS",
+        "sentence": "Congressional leaders backed Bush's criticism of Nicaragua's Ortega.",
+        "tgt_token": "leaders",
         "property": "VOL",
         "response": 5,
         "roleset": "back.01",
-        "sentence_id": "0587_6"
+        "sentence_id": "0587_6",
+        "type": "nonphysical"
     },
     {
-        "sentence": "CONGRESSIONAL LEADERS BACKED Bush's criticism of Nicaragua's Ortega.",
+        "sentence": "Congressional leaders backed Bush's criticism of Nicaragua's Ortega.",
         "tgt_token": "Bush",
         "property": "VOL",
         "response": 5,
         "roleset": "criticism.01",
-        "sentence_id": "0587_6"
+        "sentence_id": "0587_6",
+        "type": "nonphysical"
     },
     {
         "sentence": "He started Arrow Roustabouts Inc. a year ago with a loan from a friend, since repaid, and now employs 15.",
@@ -421,7 +474,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "employ.01",
-        "sentence_id": "0725_121"
+        "sentence_id": "0725_121",
+        "type": "physical"
     },
     {
         "sentence": "He started Arrow Roustabouts Inc. a year ago with a loan from a friend, since repaid, and now employs 15.",
@@ -429,7 +483,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "employ.01",
-        "sentence_id": "0725_121"
+        "sentence_id": "0725_121",
+        "type": "physical"
     },
     {
         "sentence": "Britain's Prime Minister Thatcher alone dissented.",
@@ -437,7 +492,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "dissent.01",
-        "sentence_id": "1547_17"
+        "sentence_id": "1547_17",
+        "type": "nonphysical"
     },
     {
         "sentence": "Only about 20 % of California home and business owners carried earthquake coverage.",
@@ -445,7 +501,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "carry.01",
-        "sentence_id": "0766_21"
+        "sentence_id": "0766_21",
+        "type": "nonphysical"
     },
     {
         "sentence": "Fireman's Fund insures 37,300 homes and autos and 35,000 businesses in the Bay area.",
@@ -453,7 +510,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "insure.02",
-        "sentence_id": "1870_89"
+        "sentence_id": "1870_89",
+        "type": "nonphysical"
     },
     {
         "sentence": "The company also named Michael E. Gellert, a director and a major shareholder, to fill the vacant seat of chairman.",
@@ -461,15 +519,35 @@
         "property": "VOL",
         "response": 5,
         "roleset": "name.01",
-        "sentence_id": "1459_3"
+        "sentence_id": "1459_3",
+        "type": "nonphysical"
     },
     {
-        "sentence": "As the violinist tells it, his grandmotherly looking teacher `` put her hands on her hips, stomped her foot and said, `",
+        "sentence": "As the violinist tells it, his grandmotherly looking teacher put her hands on her hips, stomped her foot and said",
         "tgt_token": "teacher",
         "property": "VOL",
         "response": 5,
         "roleset": "stomp.01",
-        "sentence_id": "1388_23"
+        "sentence_id": "1388_23",
+        "type": "physical"
+    },
+    {
+        "sentence": "As the violinist tells it, his grandmotherly looking teacher put her hands on her hips, stomped her foot and said",
+        "tgt_token": "hands",
+        "property": "MOT",
+        "response": 5,
+        "roleset": "put.01",
+        "sentence_id": "1388_23",
+        "type": "physical"
+    },
+    {
+        "sentence": "As the violinist tells it, his grandmotherly looking teacher put her hands on her hips, stomped her foot and said",
+        "tgt_token": "hips",
+        "property": "EXIST",
+        "response": 5,
+        "roleset": "put.01",
+        "sentence_id": "1388_23",
+        "type": "physical"
     },
     {
         "sentence": "For instance, he helped steal the May 1984 Panamanian elections for the ruling party.",
@@ -477,7 +555,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "steal.01",
-        "sentence_id": "2013_137"
+        "sentence_id": "2013_137",
+        "type": "nonphysical"
     },
     {
         "sentence": "According to the officials, Mr. Bush even read to the senators selections from a highly classified letter from the",
@@ -485,7 +564,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "read.01",
-        "sentence_id": "1506_4"
+        "sentence_id": "1506_4",
+        "type": "physical"
     },
     {
         "sentence": "Within minutes after the stock market closed Friday, I called Sen. Bill Bradley of New Jersey, advised him that the Dow",
@@ -493,7 +573,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "call.XX",
-        "sentence_id": "1939_0"
+        "sentence_id": "1939_0",
+        "type": "nonphysical"
     },
     {
         "sentence": "So the administration dropped it.",
@@ -501,7 +582,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "drop.05",
-        "sentence_id": "0771_22"
+        "sentence_id": "0771_22",
+        "type": "nonphysical"
     },
     {
         "sentence": "Thousands of East Germans attended public rallies organized by the Communist leadership and demanded free speech,",
@@ -509,7 +591,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "demand.01",
-        "sentence_id": "0587_14"
+        "sentence_id": "0587_14",
+        "type": "nonphysical"
     },
     {
         "sentence": "Thousands of East Germans attended public rallies organized by the Communist leadership and demanded free speech,",
@@ -517,7 +600,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "organize.01",
-        "sentence_id": "0587_14"
+        "sentence_id": "0587_14",
+        "type": "physical"
     },
     {
         "sentence": "Finally, Prince Rainier and Princess Grace saved her with the offer of a house in Monaco.",
@@ -525,7 +609,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "save.02",
-        "sentence_id": "1327_15"
+        "sentence_id": "1327_15",
+        "type": "nonphysical"
     },
     {
         "sentence": "More than 1,000 Muscovites attended the service.",
@@ -533,7 +618,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "attend.01",
-        "sentence_id": "0490_5"
+        "sentence_id": "0490_5",
+        "type": "physical"
     },
     {
         "sentence": "Japanese investors and traders expressed relief that the Tokyo market did n't fall more sharply.",
@@ -541,7 +627,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "express.01",
-        "sentence_id": "2230_24"
+        "sentence_id": "2230_24",
+        "type": "nonphysical"
     },
     {
         "sentence": "NASA postponed the liftoff of the space shuttle Atlantis because of rain near the site of the launch pad in Cape",
@@ -549,7 +636,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "postpone.01",
-        "sentence_id": "2102_13"
+        "sentence_id": "2102_13",
+        "type": "nonphysical"
     },
     {
         "sentence": "Toyota Motor Corp. grandly touted its system in a car that splits in half to reveal the suspension's inner workings.",
@@ -557,7 +645,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "tout.01",
-        "sentence_id": "0956_19"
+        "sentence_id": "0956_19",
+        "type": "nonphysical"
     },
     {
         "sentence": "Hungary declared itself a democracy and for the first time openly commemorated the anniversary of the 1956",
@@ -565,7 +654,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "declare.01",
-        "sentence_id": "1353_10"
+        "sentence_id": "1353_10",
+        "type": "nonphysical"
     },
     {
         "sentence": "But Sony ultimately took a lesson from the American management books and fired Mr. Katzenstein, after he committed the",
@@ -573,7 +663,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "fire.02",
-        "sentence_id": "0037_32"
+        "sentence_id": "0037_32",
+        "type": "nonphysical"
     },
     {
         "sentence": "But the Tax Court said the limitations were reasonable and realistic and allowed the deductions.",
@@ -581,15 +672,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "allow.01",
-        "sentence_id": "2033_25"
+        "sentence_id": "2033_25",
+        "type": "nonphysical"
     },
     {
-        "sentence": "And some even do it with malice aforethought.",
+        "sentence": "and some even do it with malice aforethought.",
         "tgt_token": "some",
         "property": "VOL",
         "response": 5,
         "roleset": "do.02",
-        "sentence_id": "1376_47"
+        "sentence_id": "1376_47",
+        "type": "nonphysical"
     },
     {
         "sentence": "The Chinese leader, Mr. Lee informed Mr. Bush, expressed some regret for what had happened in Beijing and conceded that",
@@ -597,7 +690,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "concede.01",
-        "sentence_id": "0931_6"
+        "sentence_id": "0931_6",
+        "type": "nonphysical"
     },
     {
         "sentence": "To find out why, the group recently commissioned a study of the past 20 years of bowling-related research.",
@@ -605,7 +699,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "commission.01",
-        "sentence_id": "0409_75"
+        "sentence_id": "0409_75",
+        "type": "nonphysical"
     },
     {
         "sentence": "Marni Rice plays the maid with so much edge as to steal her two scenes.",
@@ -613,7 +708,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "play.02",
-        "sentence_id": "1163_34"
+        "sentence_id": "1163_34",
+        "type": "nonphysical"
     },
     {
         "sentence": "The farmer barges into the naczelnik's office.",
@@ -621,7 +717,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "barge.01",
-        "sentence_id": "1146_161"
+        "sentence_id": "1146_161",
+        "type": "physical"
     },
     {
         "sentence": "The farmer barges into the naczelnik's office.",
@@ -629,7 +726,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "barge.01",
-        "sentence_id": "1146_161"
+        "sentence_id": "1146_161",
+        "type": "physical"
     },
     {
         "sentence": "To keep the exchange rate pegged, Mr. Lawson tightened monetary policy and pushed interest rates up to 15 %.",
@@ -637,7 +735,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "tighten.01",
-        "sentence_id": "0571_12"
+        "sentence_id": "0571_12",
+        "type": "nonphysical"
     },
     {
         "sentence": "Industry analysts speculated that Mr. Price's sudden departure may have stemmed from conflicts with Mr. Gatward.",
@@ -645,7 +744,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "speculate.01",
-        "sentence_id": "0532_4"
+        "sentence_id": "0532_4",
+        "type": "nonphysical"
+    },
+    {
+        "sentence": "Industry analysts speculated that Mr. Price's sudden departure may have stemmed from conflicts with Mr. Gatward.",
+        "tgt_token": "Price",
+        "property": "VOL::MOT",
+        "response": 5,
+        "roleset": "depart.01",
+        "sentence_id": "0532_4",
+        "type": "physical"
     },
     {
         "sentence": "The Kraft General Foods brand stopped advertising for about a year in 1987 and gave up several market share points and",
@@ -653,7 +762,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "give.07",
-        "sentence_id": "1856_70"
+        "sentence_id": "1856_70",
+        "type": "nonphysical"
     },
     {
         "sentence": "Young consumers prefer luxury cars by a 37 % to 28 % margin--even though older buyers, because of their incomes, are",
@@ -661,7 +771,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "prefer.01",
-        "sentence_id": "1377_42"
+        "sentence_id": "1377_42",
+        "type": "nonphysical"
     },
     {
         "sentence": "An official linked the gain essentially to higher prices for beef and pork.",
@@ -669,7 +780,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "link.01",
-        "sentence_id": "0232_4"
+        "sentence_id": "0232_4",
+        "type": "nonphysical"
     },
     {
         "sentence": "In a strongly worded response summarizing a filing made in the same court yesterday, GE asserted that `` prosecutors",
@@ -677,7 +789,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "assert.02",
-        "sentence_id": "1184_2"
+        "sentence_id": "1184_2",
+        "type": "nonphysical"
     },
     {
         "sentence": "In 1987, KKR for the second time piled debt onto Storer's TV stations, selling them for $ 1.3 billion to a new entity",
@@ -685,7 +798,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "pile.01",
-        "sentence_id": "1206_10"
+        "sentence_id": "1206_10",
+        "type": "nonphysical"
     },
     {
         "sentence": "The dealers immediately showed their new acquisition to an expert and came to see it as a fake.",
@@ -693,7 +807,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "show.01",
-        "sentence_id": "0450_40"
+        "sentence_id": "0450_40",
+        "type": "nonphysical"
     },
     {
         "sentence": "As for the ride back to camp, our pilot and all the other French-speaking passengers clambered into the chase car.",
@@ -701,7 +816,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "clamber.01",
-        "sentence_id": "0239_55"
+        "sentence_id": "0239_55",
+        "type": "physical"
     },
     {
         "sentence": "As for the ride back to camp, our pilot and all the other French-speaking passengers clambered into the chase car.",
@@ -709,7 +825,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "clamber.01",
-        "sentence_id": "0239_55"
+        "sentence_id": "0239_55",
+        "type": "physical"
     },
     {
         "sentence": "As for the ride back to camp, our pilot and all the other French-speaking passengers clambered into the chase car.",
@@ -717,7 +834,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "clamber.01",
-        "sentence_id": "0239_55"
+        "sentence_id": "0239_55",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Katz advocates issues with low price-earnings ratios--that is, low prices in relation to the company's earnings per",
@@ -725,7 +843,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "advocate.01",
-        "sentence_id": "1623_69"
+        "sentence_id": "1623_69",
+        "type": "nonphysical"
     },
     {
         "sentence": "He earned a master's degree in architecture from Yale.",
@@ -733,7 +852,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "earn.01",
-        "sentence_id": "1455_30"
+        "sentence_id": "1455_30",
+        "type": "nonphysical"
     },
     {
         "sentence": "For its part, NIH insists that its guidelines `` should not stifle research creativity or technology transfer from the",
@@ -741,7 +861,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "insist.01",
-        "sentence_id": "0975_34"
+        "sentence_id": "0975_34",
+        "type": "nonphysical"
     },
     {
         "sentence": "Italian President Francesco Cossiga promised a quick investigation into whether Olivetti broke Cocom rules.",
@@ -749,7 +870,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "promise.01",
-        "sentence_id": "2326_8"
+        "sentence_id": "2326_8",
+        "type": "nonphysical"
     },
     {
         "sentence": "Italian President Francesco Cossiga promised a quick investigation into whether Olivetti broke Cocom rules.",
@@ -757,7 +879,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "promise.01",
-        "sentence_id": "2326_8"
+        "sentence_id": "2326_8",
+        "type": "nonphysical"
     },
     {
         "sentence": "The dealership dutifully recorded the sale under the name `` Judge O'Kicki. ''",
@@ -765,7 +888,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "record.01",
-        "sentence_id": "0267_67"
+        "sentence_id": "0267_67",
+        "type": "nonphysical"
     },
     {
         "sentence": "Meanwhile, investors turned a cold shoulder to the Treasury's sale of $ 10 billion of new two-year notes yesterday.",
@@ -773,7 +897,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "turn.01",
-        "sentence_id": "1213_26"
+        "sentence_id": "1213_26",
+        "type": "nonphysical"
     },
     {
         "sentence": "Debora Foster takes off her necklace, settles herself on a padded chair and gently leans forward.",
@@ -781,7 +906,8 @@
         "property": "VOL::INTL",
         "response": 5,
         "roleset": "take.07",
-        "sentence_id": "2161_0"
+        "sentence_id": "2161_0",
+        "type": "physical"
     },
     {
         "sentence": "Debora Foster takes off her necklace, settles herself on a padded chair and gently leans forward.",
@@ -789,7 +915,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "take.07",
-        "sentence_id": "2161_0"
+        "sentence_id": "2161_0",
+        "type": "physical"
     },
     {
         "sentence": "Debora Foster takes off her necklace, settles herself on a padded chair and gently leans forward.",
@@ -797,15 +924,17 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "settle.01",
-        "sentence_id": "2161_0"
+        "sentence_id": "2161_0",
+        "type": "physical"
     },
     {
-        "sentence": "Spiegel promises a `` Guaranteed Christmas, '' with a pledge to deliver goods before Christmas if ordered by Dec. 20.",
+        "sentence": "Spiegel promises a Guaranteed Christmas, with a pledge to deliver goods before Christmas if ordered by Dec. 20.",
         "tgt_token": "Spiegel",
         "property": "VOL",
         "response": 5,
         "roleset": "promise.01",
-        "sentence_id": "1825_45"
+        "sentence_id": "1825_45",
+        "type": "nonphysical"
     },
     {
         "sentence": "The company asked for a 15-day extension Sept. 30, when the financial reports were due.",
@@ -813,7 +942,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "ask.02",
-        "sentence_id": "2334_2"
+        "sentence_id": "2334_2",
+        "type": "nonphysical"
     },
     {
         "sentence": "In the end, after meeting with the former housekeeper, Stevens sits by the seashore at dusk, thinking of her and of his",
@@ -821,7 +951,8 @@
         "property": "VOL::INTL",
         "response": 5,
         "roleset": "declare.02",
-        "sentence_id": "2149_34"
+        "sentence_id": "2149_34",
+        "type": "physical"
     },
     {
         "sentence": "In the end, after meeting with the former housekeeper, Stevens sits by the seashore at dusk, thinking of her and of his",
@@ -829,7 +960,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "declare.02",
-        "sentence_id": "2149_34"
+        "sentence_id": "2149_34",
+        "type": "physical"
     },
     {
         "sentence": "Exxon Corp. filed suit against the state of Alaska, charging state officials interfered with the oil company's initial",
@@ -837,7 +969,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "file.01",
-        "sentence_id": "1347_0"
+        "sentence_id": "1347_0",
+        "type": "nonphysical"
     },
     {
         "sentence": "The government built ports, bridges, highways, schools, hospitals and railways.",
@@ -845,7 +978,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "1120_3"
+        "sentence_id": "1120_3",
+        "type": "physical"
     },
     {
         "sentence": "More than 70,000 people filled a soccer stadium on the outskirts of the black township of Soweto and welcomed freed",
@@ -853,7 +987,8 @@
         "property": "VOL::INTL",
         "response": 5,
         "roleset": "welcome.01",
-        "sentence_id": "0587_1"
+        "sentence_id": "0587_1",
+        "type": "physical"
     },
     {
         "sentence": "More than 70,000 people filled a soccer stadium on the outskirts of the black township of Soweto and welcomed freed",
@@ -861,7 +996,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "welcome.01",
-        "sentence_id": "0587_1"
+        "sentence_id": "0587_1",
+        "type": "physical"
     },
     {
         "sentence": "The bankers also insist that the loans depend on the consortium raising more money from new and existing backers.",
@@ -869,7 +1005,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "insist.01",
-        "sentence_id": "0373_13"
+        "sentence_id": "0373_13",
+        "type": "nonphysical"
     },
     {
         "sentence": "They wear tuxedos most nights, unless circumstances-LRB-a regular gig at a `` tropical '' lounge, for",
@@ -877,7 +1014,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "wear.01",
-        "sentence_id": "1831_23"
+        "sentence_id": "1831_23",
+        "type": "physical"
     },
     {
         "sentence": "They wear tuxedos most nights, unless circumstances-LRB-a regular gig at a `` tropical '' lounge, for",
@@ -885,7 +1023,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "wear.01",
-        "sentence_id": "1831_23"
+        "sentence_id": "1831_23",
+        "type": "physical"
     },
     {
         "sentence": "A group of shareholders filed suit against Imperial Corp. of America, Drexel Burnham Lambert Inc., First Executive Corp.",
@@ -893,7 +1032,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "file.01",
-        "sentence_id": "1381_0"
+        "sentence_id": "1381_0",
+        "type": "nonphysical"
     },
     {
         "sentence": "China pulled out of the program in July.",
@@ -901,7 +1041,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "pull.02",
-        "sentence_id": "0093_25"
+        "sentence_id": "0093_25",
+        "type": "nonphysical"
     },
     {
         "sentence": "Ford officials, for example, crowed about their first-ever Tokyo Grand Prix racing victory.",
@@ -909,7 +1050,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "crow.01",
-        "sentence_id": "0956_53"
+        "sentence_id": "0956_53",
+        "type": "nonphysical"
     },
     {
         "sentence": "With $ 2.3 million, he and other investors launched Lithox last year to market a gallstone cure being developed by",
@@ -917,7 +1059,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "launch.01",
-        "sentence_id": "0975_8"
+        "sentence_id": "0975_8",
+        "type": "nonphysical"
     },
     {
         "sentence": "Even network executives, however, admit privately that victory--either in Congress or in talks with the studios--is",
@@ -925,7 +1068,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "admit.01",
-        "sentence_id": "2451_4"
+        "sentence_id": "2451_4",
+        "type": "nonphysical"
     },
     {
         "sentence": "Professionals dominated municipal trading throughout the session.",
@@ -933,47 +1077,53 @@
         "property": "VOL",
         "response": 5,
         "roleset": "dominate.01",
-        "sentence_id": "2239_85"
+        "sentence_id": "2239_85",
+        "type": "nonphysical"
     },
     {
-        "sentence": "Japanese Reverse Tack On Patent Protection",
+        "sentence": "Japanese reverse tack on patent protection",
         "tgt_token": "Japanese",
         "property": "VOL",
         "response": 5,
         "roleset": "reverse.01",
-        "sentence_id": "1373_25"
+        "sentence_id": "1373_25",
+        "type": "nonphysical"
     },
     {
-        "sentence": "RESEARCHERS diagnosed a genetic defect in a three-day-old mouse embryo in an experiment directly applicable to humans.",
-        "tgt_token": "RESEARCHERS",
+        "sentence": "Researchers diagnosed a genetic defect in a three-day-old mouse embryo in an experiment directly applicable to humans.",
+        "tgt_token": "Researchers",
         "property": "VOL",
         "response": 5,
         "roleset": "diagnose.01",
-        "sentence_id": "1218_1"
+        "sentence_id": "1218_1",
+        "type": "nonphysical"
     },
     {
-        "sentence": "`` We still think there's a lot of unsettlement in this market.",
+        "sentence": "We still think there's a lot of unsettlement in this market.",
         "tgt_token": "We",
         "property": "VOL",
         "response": 5,
         "roleset": "think.01",
-        "sentence_id": "1453_39"
+        "sentence_id": "1453_39",
+        "type": "nonphysical"
     },
     {
-        "sentence": "That Labor Day, in his first major act after succeeding the resigned Richard Nixon as president, Gerald R. Ford signed",
+        "sentence": "That Labor Day, in his first major act after succeeding the resigned Richard Nixon as president, Gerald R. Ford signed the document",
         "tgt_token": "Ford",
         "property": "VOL",
         "response": 5,
         "roleset": "sign.01",
-        "sentence_id": "0933_2"
+        "sentence_id": "0933_2",
+        "type": "physical"
     },
     {
-        "sentence": "We want them to buy more of their wardrobe here. ''",
+        "sentence": "We want them to buy more of their wardrobe here.",
         "tgt_token": "We",
         "property": "VOL",
         "response": 5,
         "roleset": "want.01",
-        "sentence_id": "0530_13"
+        "sentence_id": "0530_13",
+        "type": "nonphysical"
     },
     {
         "sentence": "Co-authors David Savageau and Richard Boyer, live in Gloucester, Mass., and Asheville, N.C., respectively.",
@@ -981,7 +1131,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "live.01",
-        "sentence_id": "1826_15"
+        "sentence_id": "1826_15",
+        "type": "physical"
     },
     {
         "sentence": "China's parliament ousted two Hong Kong residents from a panel drafting a new constitution for the colony.",
@@ -989,7 +1140,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "oust.01",
-        "sentence_id": "0283_20"
+        "sentence_id": "0283_20",
+        "type": "nonphysical"
     },
     {
         "sentence": "Still, Vista officials realize they 're relatively fortunate.",
@@ -997,7 +1149,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "realize.01",
-        "sentence_id": "1691_47"
+        "sentence_id": "1691_47",
+        "type": "nonphysical"
     },
     {
         "sentence": "Senior ministry officials huddled with creditors during the week in an attempt to agree on some form of restructuring",
@@ -1005,7 +1158,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "huddle.02",
-        "sentence_id": "0773_28"
+        "sentence_id": "0773_28",
+        "type": "physical"
     },
     {
         "sentence": "His company, without any major effort, sells more machines in China than in Japan.",
@@ -1013,7 +1167,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "sell.01",
-        "sentence_id": "0445_102"
+        "sentence_id": "0445_102",
+        "type": "nonphysical"
     },
     {
         "sentence": "In January 1988, the utility filed for protection under Chapter 11 of the federal Bankruptcy Code, allowing it to",
@@ -1021,7 +1176,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "file.02",
-        "sentence_id": "1738_7"
+        "sentence_id": "1738_7",
+        "type": "nonphysical"
     },
     {
         "sentence": "Retail investors dumped holdings on a massive scale, pushing some blue-chip shares down as much as 20 %.",
@@ -1029,7 +1185,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "dump.01",
-        "sentence_id": "2230_66"
+        "sentence_id": "2230_66",
+        "type": "nonphysical"
     },
     {
         "sentence": "Using cinema, television and print ads, the company pitches Southern Comfort as a grand old drink of the antebellum",
@@ -1037,7 +1194,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "pitch.04",
-        "sentence_id": "1274_19"
+        "sentence_id": "1274_19",
+        "type": "nonphysical"
     },
     {
         "sentence": "Labor unions and Democrats long fought the idea, but recently acceded to it in the face of Bush administration",
@@ -1045,7 +1203,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "fight.01",
-        "sentence_id": "0098_13"
+        "sentence_id": "0098_13",
+        "type": "nonphysical"
     },
     {
         "sentence": "When their changes are completed, and after they have worked up a sweat, ringers often skip off to the local pub,",
@@ -1053,7 +1212,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "skip.03",
-        "sentence_id": "0089_35"
+        "sentence_id": "0089_35",
+        "type": "physical"
     },
     {
         "sentence": "Paris loved her at first sight.",
@@ -1061,7 +1221,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "love.01",
-        "sentence_id": "1327_21"
+        "sentence_id": "1327_21",
+        "type": "nonphysical"
     },
     {
         "sentence": "Plump Beau, looking eager to please with his arched eyebrows and round face, plays the older brother, Frank.",
@@ -1069,7 +1230,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "play.02",
-        "sentence_id": "1831_24"
+        "sentence_id": "1831_24",
+        "type": "nonphysical"
     },
     {
         "sentence": "But anti-abortionists oppose such research because they worry that the development of therapies using fetal-tissue",
@@ -1077,7 +1239,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "oppose.01",
-        "sentence_id": "0047_2"
+        "sentence_id": "0047_2",
+        "type": "nonphysical"
     },
     {
         "sentence": "Hundreds of Californians made their way to their computers after the quake, and checked in with each other on electronic",
@@ -1085,7 +1248,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "check.04",
-        "sentence_id": "1778_2"
+        "sentence_id": "1778_2",
+        "type": "physical"
     },
     {
         "sentence": "Hundreds of Californians made their way to their computers after the quake, and checked in with each other on electronic",
@@ -1093,7 +1257,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "check.04",
-        "sentence_id": "1778_2"
+        "sentence_id": "1778_2",
+        "type": "physical"
     },
     {
         "sentence": "Coke said it will test market a caffeine-free version of its flagship brand, Coca-Cola Classic, beginning next week in",
@@ -1101,7 +1266,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "say.01",
-        "sentence_id": "1923_1"
+        "sentence_id": "1923_1",
+        "type": "nonphysical"
     },
     {
         "sentence": "Last May, a government panel released a report on the extent and causes of the problem.",
@@ -1109,7 +1275,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "release.01",
-        "sentence_id": "0761_7"
+        "sentence_id": "0761_7",
+        "type": "nonphysical"
     },
     {
         "sentence": "He then ousted President Nicholas Ardito Barletta, a former World Bank official with close ties to the U.S., after Mr.",
@@ -1117,7 +1284,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "oust.01",
-        "sentence_id": "2013_141"
+        "sentence_id": "2013_141",
+        "type": "nonphysical"
     },
     {
         "sentence": "When asked `` What went wrong ? '' the unfortunate victim replied, `` It was a combination of things. ''",
@@ -1125,15 +1293,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "reply.01",
-        "sentence_id": "2229_1"
+        "sentence_id": "2229_1",
+        "type": "nonphysical"
     },
     {
-        "sentence": "You talk of times of peace for all, and then prepare for war. ''",
+        "sentence": "You talk of times of peace for all, and then prepare for war.",
         "tgt_token": "You",
         "property": "VOL",
         "response": 5,
         "roleset": "prepare.01",
-        "sentence_id": "2058_14"
+        "sentence_id": "2058_14",
+        "type": "nonphysical"
     },
     {
         "sentence": "In his Rolling Stone interview in 1980, Mr. Bush volunteered his abortion-rights remarks to contrast himself with his",
@@ -1141,7 +1311,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "volunteer.01",
-        "sentence_id": "1094_37"
+        "sentence_id": "1094_37",
+        "type": "nonphysical"
     },
     {
         "sentence": "In the multipart offering, the company sold a portion of secured notes but shelved all the unsecured notes.",
@@ -1149,7 +1320,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "shelve.01",
-        "sentence_id": "1874_15"
+        "sentence_id": "1874_15",
+        "type": "nonphysical"
     },
     {
         "sentence": "Mr. Baker drives a 1987 Chevy and usually wears a tweed jacket on his ghostbusting forays.",
@@ -1157,7 +1329,17 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "drive.01",
-        "sentence_id": "0413_27"
+        "sentence_id": "0413_27",
+        "type": "physical"
+    },
+    {
+        "sentence": "Mr. Baker drives a 1987 Chevy and usually wears a tweed jacket on his ghostbusting forays.",
+        "tgt_token": "jacket",
+        "property": "EXIST",
+        "response": 5,
+        "roleset": "wear.01",
+        "sentence_id": "0413_27",
+        "type": "physical"
     },
     {
         "sentence": "While it was once expected that futures would mimic stock prices, traders now routinely check the futures markets in",
@@ -1165,7 +1347,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "check.01",
-        "sentence_id": "0742_13"
+        "sentence_id": "0742_13",
+        "type": "nonphysical"
     },
     {
         "sentence": "Because of the difficulty of assessing the damages caused by the earthquake, Aetna pulled together a team of its most",
@@ -1173,7 +1356,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "pull.01",
-        "sentence_id": "0766_34"
+        "sentence_id": "0766_34",
+        "type": "nonphysical"
     },
     {
         "sentence": "Because of the difficulty of assessing the damages caused by the earthquake, Aetna pulled together a team of its most",
@@ -1181,7 +1365,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "pull.01",
-        "sentence_id": "0766_34"
+        "sentence_id": "0766_34",
+        "type": "nonphysical"
     },
     {
         "sentence": "Mr. Deaver confessed to his alcoholism during his trial on perjury charges.",
@@ -1189,7 +1374,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "confess.01",
-        "sentence_id": "0909_25"
+        "sentence_id": "0909_25",
+        "type": "nonphysical"
     },
     {
         "sentence": "In talks with Mr. Nixon, Chinese leaders expressed no regret for the killings, and even suggested that the U.S. was",
@@ -1197,7 +1383,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "express.01",
-        "sentence_id": "0093_11"
+        "sentence_id": "0093_11",
+        "type": "nonphysical"
     },
     {
         "sentence": "In a widely publicized boardroom coup, Mr. Fromstein ousted Antony Berry as Blue Arrow chief executive in January, a",
@@ -1205,15 +1392,17 @@
         "property": "VOL",
         "response": 5,
         "roleset": "oust.01",
-        "sentence_id": "2281_9"
+        "sentence_id": "2281_9",
+        "type": "nonphysical"
     },
     {
-        "sentence": "And, defenders say, few people complain about futures when stock prices are rising.",
+        "sentence": "and, defenders say, few people complain about futures when stock prices are rising.",
         "tgt_token": "people",
         "property": "VOL",
         "response": 5,
         "roleset": "complain.01",
-        "sentence_id": "0742_28"
+        "sentence_id": "0742_28",
+        "type": "nonphysical"
     },
     {
         "sentence": "The family moves to another house at night to conceal shabby belongings from neighbors.",
@@ -1221,7 +1410,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "move.01",
-        "sentence_id": "0790_18"
+        "sentence_id": "0790_18",
+        "type": "physical"
     },
     {
         "sentence": "The family moves to another house at night to conceal shabby belongings from neighbors.",
@@ -1229,7 +1419,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "move.01",
-        "sentence_id": "0790_18"
+        "sentence_id": "0790_18",
+        "type": "physical"
     },
     {
         "sentence": "The family moves to another house at night to conceal shabby belongings from neighbors.",
@@ -1237,7 +1428,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "move.01",
-        "sentence_id": "0790_18"
+        "sentence_id": "0790_18",
+        "type": "physical"
     },
     {
         "sentence": "The family moves to another house at night to conceal shabby belongings from neighbors.",
@@ -1245,7 +1437,8 @@
         "property": "MPROP",
         "response": 5,
         "roleset": "move.01",
-        "sentence_id": "0790_18"
+        "sentence_id": "0790_18",
+        "type": "physical"
     },
     {
         "sentence": "He wound up and let loose a fastball.",
@@ -1253,7 +1446,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "let.01",
-        "sentence_id": "0758_22"
+        "sentence_id": "0758_22",
+        "type": "physical"
     },
     {
         "sentence": "It flopped all around, real dramatic !",
@@ -1261,23 +1455,35 @@
         "property": "MOT",
         "response": 5,
         "roleset": "flop.01",
-        "sentence_id": "1778_45"
+        "sentence_id": "1778_45",
+        "type": "physical"
     },
     {
         "sentence": "She ran it the length of the South Gardens riverfront, blotting out the city's great natural water features, the harbor",
-        "tgt_token": "it",
-        "property": "MOT",
+        "tgt_token": "She",
+        "property": "VOL",
         "response": 5,
         "roleset": "run.XX",
-        "sentence_id": "0984_52"
+        "sentence_id": "0984_52",
+        "type": "physical"
     },
     {
-        "sentence": "In his lifetime, 47 years, the Communists brought electricity to his village and piped in drinking water from the",
+        "sentence": "In his lifetime, 47 years, the Communists brought electricity to his village and piped in drinking water from the river",
         "tgt_token": "water",
         "property": "MOT",
         "response": 5,
         "roleset": "pipe.01",
-        "sentence_id": "1146_78"
+        "sentence_id": "1146_78",
+        "type": "physical"
+    },
+    {
+        "sentence": "In his lifetime, 47 years, the Communists brought electricity to his village and piped in drinking water from the river",
+        "tgt_token": "river",
+        "property": "EXIST",
+        "response": 5,
+        "roleset": "pipe.01",
+        "sentence_id": "1146_78",
+        "type": "physical"
     },
     {
         "sentence": "Above the blossoms of lantana and scarlet pea the inky-brown and golden palamedes butterfly floats on its lazy wingbeat.",
@@ -1285,7 +1491,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "float.01",
-        "sentence_id": "1323_38"
+        "sentence_id": "1323_38",
+        "type": "physical"
     },
     {
         "sentence": "Last week, a Soviet delegation came to Japan to push more space technologies.",
@@ -1293,7 +1500,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "come.XX",
-        "sentence_id": "0405_30"
+        "sentence_id": "0405_30",
+        "type": "physical"
     },
     {
         "sentence": "He showed up with a carpenter's level, carefully measured every surface and showed how the apparent shrinkage was caused",
@@ -1301,7 +1509,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "show.02",
-        "sentence_id": "0413_53"
+        "sentence_id": "0413_53",
+        "type": "physical"
     },
     {
         "sentence": "Meanwhile, about 125 refugees flew to Duesseldorf, West Germany, from Warsaw, the first airlift in East Germany's",
@@ -1309,7 +1518,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "fly.01",
-        "sentence_id": "2102_10"
+        "sentence_id": "2102_10",
+        "type": "physical"
     },
     {
         "sentence": "Meanwhile, about 125 refugees flew to Duesseldorf, West Germany, from Warsaw, the first airlift in East Germany's",
@@ -1317,15 +1527,17 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "fly.01",
-        "sentence_id": "2102_10"
+        "sentence_id": "2102_10",
+        "type": "physical"
     },
     {
         "sentence": "Some residents defied orders and returned to `` red '' buildings to retrieve goods.",
         "tgt_token": "residents",
-        "property": "MOT",
+        "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "1435_32"
+        "sentence_id": "1435_32",
+        "type": "physical"
     },
     {
         "sentence": "Some residents defied orders and returned to `` red '' buildings to retrieve goods.",
@@ -1333,7 +1545,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "1435_32"
+        "sentence_id": "1435_32",
+        "type": "physical"
     },
     {
         "sentence": "From time to time he returns to the monastery for prayer, meditation and pro bono legal work.",
@@ -1341,7 +1554,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "0909_35"
+        "sentence_id": "0909_35",
+        "type": "physical"
     },
     {
         "sentence": "From time to time he returns to the monastery for prayer, meditation and pro bono legal work.",
@@ -1349,7 +1563,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "0909_35"
+        "sentence_id": "0909_35",
+        "type": "physical"
     },
     {
         "sentence": "The envelope arrives in the mail.",
@@ -1357,7 +1572,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "arrive.01",
-        "sentence_id": "0528_0"
+        "sentence_id": "0528_0",
+        "type": "physical"
     },
     {
         "sentence": "Last year, Mr. Kume said, Nissan exported slightly over one million vehicles, and produced 570,000 cars and trucks at",
@@ -1365,7 +1581,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "export.01",
-        "sentence_id": "0669_4"
+        "sentence_id": "0669_4",
+        "type": "physical"
     },
     {
         "sentence": "Last year, Mr. Kume said, Nissan exported slightly over one million vehicles, and produced 570,000 cars and trucks at",
@@ -1373,15 +1590,17 @@
         "property": "DES",
         "response": 5,
         "roleset": "produce.01",
-        "sentence_id": "0669_4"
+        "sentence_id": "0669_4",
+        "type": "physical"
     },
     {
-        "sentence": "He bangs on the piece of paper in frustration, then turns and walks away.",
+        "sentence": "He turns and walks away.",
         "tgt_token": "He",
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "turn.01",
-        "sentence_id": "1397_58"
+        "sentence_id": "1397_58",
+        "type": "physical"
     },
     {
         "sentence": "He bangs on the piece of paper in frustration, then turns and walks away.",
@@ -1389,7 +1608,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "turn.01",
-        "sentence_id": "1397_58"
+        "sentence_id": "1397_58",
+        "type": "physical"
     },
     {
         "sentence": "The five astronauts returned to Earth about three hours early because high winds had been predicted at the landing site.",
@@ -1397,7 +1617,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "1353_15"
+        "sentence_id": "1353_15",
+        "type": "physical"
     },
     {
         "sentence": "The five astronauts returned to Earth about three hours early because high winds had been predicted at the landing site.",
@@ -1405,7 +1626,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "1353_15"
+        "sentence_id": "1353_15",
+        "type": "physical"
     },
     {
         "sentence": "As the crowd outside his home shouted `` ANC, ANC, '' the old man shot his fists into the air.",
@@ -1413,7 +1635,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "shoot.06",
-        "sentence_id": "2454_7"
+        "sentence_id": "2454_7",
+        "type": "physical"
     },
     {
         "sentence": "As the crowd outside his home shouted `` ANC, ANC, '' the old man shot his fists into the air.",
@@ -1421,7 +1644,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "shoot.06",
-        "sentence_id": "2454_7"
+        "sentence_id": "2454_7",
+        "type": "physical"
     },
     {
         "sentence": "Even in the wake of Hurricane Hugo 750 people turned out in a remote Virginia town in September for a `` family tribute",
@@ -1429,7 +1653,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "turn.17",
-        "sentence_id": "0909_75"
+        "sentence_id": "0909_75",
+        "type": "physical"
     },
     {
         "sentence": "Even in the wake of Hurricane Hugo 750 people turned out in a remote Virginia town in September for a `` family tribute",
@@ -1437,7 +1662,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "turn.17",
-        "sentence_id": "0909_75"
+        "sentence_id": "0909_75",
+        "type": "physical"
     },
     {
         "sentence": "But he did fly to Panama to scold dictator Torrijos on the drug ties of Panamanian officials, including Mr. Noriega.",
@@ -1445,7 +1671,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "fly.01",
-        "sentence_id": "2013_82"
+        "sentence_id": "2013_82",
+        "type": "physical"
     },
     {
         "sentence": "But he did fly to Panama to scold dictator Torrijos on the drug ties of Panamanian officials, including Mr. Noriega.",
@@ -1453,7 +1680,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "fly.01",
-        "sentence_id": "2013_82"
+        "sentence_id": "2013_82",
+        "type": "physical"
     },
     {
         "sentence": "He sent out thousands of news releases from his Kensington, Md., office.",
@@ -1461,7 +1689,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "send.01",
-        "sentence_id": "1409_2"
+        "sentence_id": "1409_2",
+        "type": "physical"
     },
     {
         "sentence": "He sent out thousands of news releases from his Kensington, Md., office.",
@@ -1469,7 +1698,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "send.01",
-        "sentence_id": "1409_2"
+        "sentence_id": "1409_2",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Peterson took the plaintiffs ' and other investors ' money to a meeting of the bank's directors.",
@@ -1477,7 +1707,8 @@
         "property": "MOT",
         "response": 4,
         "roleset": "take.01",
-        "sentence_id": "1567_67"
+        "sentence_id": "1567_67",
+        "type": "physical"
     },
     {
         "sentence": "The explosion sent shards of metal flying, severing the DC-10's hydraulic or control systems, and led to the crash that",
@@ -1485,7 +1716,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "send.01",
-        "sentence_id": "0682_2"
+        "sentence_id": "0682_2",
+        "type": "physical"
     },
     {
         "sentence": "The explosion sent shards of metal flying, severing the DC-10's hydraulic or control systems, and led to the crash that",
@@ -1493,7 +1725,17 @@
         "property": "COS",
         "response": 5,
         "roleset": "send.01",
-        "sentence_id": "0682_2"
+        "sentence_id": "0682_2",
+        "type": "physical"
+    },
+    {
+        "sentence": "Then they took the art to Acapulco and began to trade some of it for cocaine.",
+        "tgt_token": "they",
+        "property": "VOL",
+        "response": 5,
+        "roleset": "take.XX",
+        "sentence_id": "0450_29",
+        "type": "physical"
     },
     {
         "sentence": "Then they took the art to Acapulco and began to trade some of it for cocaine.",
@@ -1501,7 +1743,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "take.XX",
-        "sentence_id": "0450_29"
+        "sentence_id": "0450_29",
+        "type": "physical"
     },
     {
         "sentence": "Then they took the art to Acapulco and began to trade some of it for cocaine.",
@@ -1509,7 +1752,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "take.XX",
-        "sentence_id": "0450_29"
+        "sentence_id": "0450_29",
+        "type": "physical"
     },
     {
         "sentence": "Grace Energy just two weeks ago hauled a rig here 500 miles from Caspar, Wyo., to drill the Bilbrey well, a 15,000-foot,",
@@ -1517,7 +1761,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "haul.01",
-        "sentence_id": "0725_114"
+        "sentence_id": "0725_114",
+        "type": "physical"
     },
     {
         "sentence": "Grace Energy just two weeks ago hauled a rig here 500 miles from Caspar, Wyo., to drill the Bilbrey well, a 15,000-foot,",
@@ -1525,7 +1770,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "haul.01",
-        "sentence_id": "0725_114"
+        "sentence_id": "0725_114",
+        "type": "physical"
     },
     {
         "sentence": "Grace Energy just two weeks ago hauled a rig here 500 miles from Caspar, Wyo., to drill the Bilbrey well, a 15,000-foot,",
@@ -1533,7 +1779,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "drill.01",
-        "sentence_id": "0725_114"
+        "sentence_id": "0725_114",
+        "type": "physical"
     },
     {
         "sentence": "One of the friends sweeps broken dishes and shattered glass from a countertop and starts to pack what can be salvaged",
@@ -1541,7 +1788,8 @@
         "property": "-MER",
         "response": 5,
         "roleset": "sweep.01",
-        "sentence_id": "0766_17"
+        "sentence_id": "0766_17",
+        "type": "physical"
     },
     {
         "sentence": "One of the friends sweeps broken dishes and shattered glass from a countertop and starts to pack what can be salvaged",
@@ -1549,7 +1797,8 @@
         "property": "-MER",
         "response": 5,
         "roleset": "sweep.01",
-        "sentence_id": "0766_17"
+        "sentence_id": "0766_17",
+        "type": "physical"
     },
     {
         "sentence": "One of the friends sweeps broken dishes and shattered glass from a countertop and starts to pack what can be salvaged",
@@ -1557,7 +1806,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "sweep.01",
-        "sentence_id": "0766_17"
+        "sentence_id": "0766_17",
+        "type": "physical"
     },
     {
         "sentence": "On July 2, 1987, the tanker S.S. Glacier Bay struck a rock and spilled almost 150,000 gallons of oil into the Cook",
@@ -1565,7 +1815,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "spill.01",
-        "sentence_id": "1470_3"
+        "sentence_id": "1470_3",
+        "type": "physical"
     },
     {
         "sentence": "On July 2, 1987, the tanker S.S. Glacier Bay struck a rock and spilled almost 150,000 gallons of oil into the Cook",
@@ -1573,7 +1824,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "spill.01",
-        "sentence_id": "1470_3"
+        "sentence_id": "1470_3",
+        "type": "physical"
     },
     {
         "sentence": "On July 2, 1987, the tanker S.S. Glacier Bay struck a rock and spilled almost 150,000 gallons of oil into the Cook",
@@ -1581,7 +1833,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "strike.01",
-        "sentence_id": "1470_3"
+        "sentence_id": "1470_3",
+        "type": "physical"
     },
     {
         "sentence": "On July 2, 1987, the tanker S.S. Glacier Bay struck a rock and spilled almost 150,000 gallons of oil into the Cook",
@@ -1589,7 +1842,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "strike.01",
-        "sentence_id": "1470_3"
+        "sentence_id": "1470_3",
+        "type": "physical"
     },
     {
         "sentence": "While she works inside, a tenant returns with several friends to collect furniture and clothing.",
@@ -1597,7 +1851,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "0766_16"
+        "sentence_id": "0766_16",
+        "type": "physical"
     },
     {
         "sentence": "While she works inside, her boyfriend walks to the park to smoke.",
@@ -1605,7 +1860,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "0766_16"
+        "sentence_id": "0766_16",
+        "type": "physical"
     },
     {
         "sentence": "He throws something.",
@@ -1613,7 +1869,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "throw.01",
-        "sentence_id": "1649_2"
+        "sentence_id": "1649_2",
+        "type": "physical"
     },
     {
         "sentence": "Months later, the Greek vase arrived in good condition at the museum in Charlottesville, having inexplicably traveled by",
@@ -1621,7 +1878,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "arrive.01",
-        "sentence_id": "0450_24"
+        "sentence_id": "0450_24",
+        "type": "physical"
     },
     {
         "sentence": "At Air Products, meanwhile, the mailroom staff opens junk mail and often throws it away--even if addressed to an",
@@ -1629,7 +1887,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "throw.01",
-        "sentence_id": "0989_23"
+        "sentence_id": "0989_23",
+        "type": "physical"
     },
     {
         "sentence": "The Los Angeles Red Cross sent 2,480 cots, 500 blankets, and 300 pints of Type-O blood.",
@@ -1637,7 +1896,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "send.01",
-        "sentence_id": "1899_7"
+        "sentence_id": "1899_7",
+        "type": "physical"
     },
     {
         "sentence": "They pile out of their truck and furiously begin twisting together steel pipes linking a giant storage tank to the",
@@ -1645,7 +1905,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "pile.03",
-        "sentence_id": "0725_1"
+        "sentence_id": "0725_1",
+        "type": "physical"
     },
     {
         "sentence": "They pile out of their truck and furiously begin twisting together steel pipes linking a giant storage tank to the",
@@ -1653,7 +1914,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "twist.01",
-        "sentence_id": "0725_1"
+        "sentence_id": "0725_1",
+        "type": "physical"
     },
     {
         "sentence": "Workers dumped large burlap sacks of the imported material into a huge bin, poured in cotton and acetate fibers and",
@@ -1661,7 +1923,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "dump.01",
-        "sentence_id": "0003_25"
+        "sentence_id": "0003_25",
+        "type": "physical"
     },
     {
         "sentence": "Workers dumped large burlap sacks of the imported material into a huge bin, poured in cotton and acetate fibers and",
@@ -1669,7 +1932,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "dump.01",
-        "sentence_id": "0003_25"
+        "sentence_id": "0003_25",
+        "type": "physical"
     },
     {
         "sentence": "The crowd moved in clumps, clumps magnetized around an electronic nucleus.",
@@ -1677,15 +1941,26 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "move.01",
-        "sentence_id": "1643_46"
+        "sentence_id": "1643_46",
+        "type": "physical"
     },
     {
         "sentence": "East German leader Krenz arrived in Moscow for talks today with Gorbachev on restructuring proposals.",
         "tgt_token": "Krenz",
-        "property": "MOT",
+        "property": "VOL::MOT",
         "response": 5,
         "roleset": "arrive.01",
-        "sentence_id": "0347_8"
+        "sentence_id": "0347_8",
+        "type": "physical"
+    },
+    {
+        "sentence": "East German leader Krenz arrived in Moscow for talks today with Gorbachev on restructuring proposals.",
+        "tgt_token": "Moscow",
+        "property": "EXIST",
+        "response": 5,
+        "roleset": "arrive.01",
+        "sentence_id": "0347_8",
+        "type": "physical"
     },
     {
         "sentence": "Each time a new scandal hits, he says, `` it pulls the scabs off your knees. ''",
@@ -1693,7 +1968,8 @@
         "property": "-MER",
         "response": 5,
         "roleset": "pull.01",
-        "sentence_id": "0909_96"
+        "sentence_id": "0909_96",
+        "type": "physical"
     },
     {
         "sentence": "Days later, the thieves returned and dug out more, this time adding insult to injury.",
@@ -1701,7 +1977,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "1379_2"
+        "sentence_id": "1379_2",
+        "type": "physical"
     },
     {
         "sentence": "After the government lawsuit was filed against Lincoln, Sen. DeConcini returned the campaign contributions.",
@@ -1709,7 +1986,8 @@
         "property": "VOL",
         "response": 4,
         "roleset": "return.02",
-        "sentence_id": "2031_16"
+        "sentence_id": "2031_16",
+        "type": "physical"
     },
     {
         "sentence": "He flew to Dallas on Oct. 19, when the market plummeted 508 points, but then turned around the next morning and returned",
@@ -1717,7 +1995,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "turn.01",
-        "sentence_id": "2413_41"
+        "sentence_id": "2413_41",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Bush returned to Washington Saturday night.",
@@ -1725,7 +2004,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "0655_5"
+        "sentence_id": "0655_5",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Bush returned to Washington Saturday night.",
@@ -1733,7 +2013,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "0655_5"
+        "sentence_id": "0655_5",
+        "type": "physical"
     },
     {
         "sentence": "The Galileo spacecraft sped unerringly toward the planet Jupiter, while five astronauts aboard the space shuttle",
@@ -1741,7 +2022,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "speed.01",
-        "sentence_id": "1730_27"
+        "sentence_id": "1730_27",
+        "type": "physical"
     },
     {
         "sentence": "The Galileo spacecraft sped unerringly toward the planet Jupiter, while five astronauts aboard the space shuttle",
@@ -1749,7 +2031,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "speed.01",
-        "sentence_id": "1730_27"
+        "sentence_id": "1730_27",
+        "type": "physical"
     },
     {
         "sentence": "While D.T. shuffled its king back and forth in a defensive crouch, Mr. Kasparov maneuvered the knight to a dominant",
@@ -1757,7 +2040,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "maneuver.01",
-        "sentence_id": "1272_30"
+        "sentence_id": "1272_30",
+        "type": "physical"
     },
     {
         "sentence": "While D.T. shuffled its king back and forth in a defensive crouch, Mr. Kasparov maneuvered the knight to a dominant",
@@ -1765,7 +2049,8 @@
         "property": "VOL",
         "response": 5,
         "roleset": "maneuver.01",
-        "sentence_id": "1272_30"
+        "sentence_id": "1272_30",
+        "type": "physical"
     },
     {
         "sentence": "While D.T. shuffled its king back and forth in a defensive crouch, Mr. Kasparov maneuvered the knight to a dominant",
@@ -1773,7 +2058,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "shuffle.01",
-        "sentence_id": "1272_30"
+        "sentence_id": "1272_30",
+        "type": "physical"
     },
     {
         "sentence": "Our pilot simply laughed, fired up the burner and with another blast of flame lifted us, oh, a good 12-inches above the",
@@ -1781,7 +2067,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "lift.01",
-        "sentence_id": "0239_44"
+        "sentence_id": "0239_44",
+        "type": "physical"
     },
     {
         "sentence": "Our pilot simply laughed, fired up the burner and with another blast of flame lifted us, oh, a good 12-inches above the",
@@ -1789,7 +2076,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "lift.01",
-        "sentence_id": "0239_44"
+        "sentence_id": "0239_44",
+        "type": "physical"
     },
     {
         "sentence": "He flew to Fort Bragg, N.C., in September of that year for a course in psychological operations, returning to the School",
@@ -1797,7 +2085,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "fly.01",
-        "sentence_id": "2013_70"
+        "sentence_id": "2013_70",
+        "type": "physical"
     },
     {
         "sentence": "He was flawless afield-LRB-ditto in game two-RRB-, moved a runner along in the A's three-run second inning, and homered",
@@ -1805,7 +2094,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "move.01",
-        "sentence_id": "2202_31"
+        "sentence_id": "2202_31",
+        "type": "physical"
     },
     {
         "sentence": "Earlier repairs vented the CFCs out of the home through a hose directly into the atmosphere.",
@@ -1813,7 +2103,8 @@
         "property": "-MER",
         "response": 5,
         "roleset": "vent.01",
-        "sentence_id": "2269_2"
+        "sentence_id": "2269_2",
+        "type": "physical"
     },
     {
         "sentence": "Earlier repairs vented the CFCs out of the home through a hose directly into the atmosphere.",
@@ -1821,7 +2112,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "vent.01",
-        "sentence_id": "2269_2"
+        "sentence_id": "2269_2",
+        "type": "physical"
     },
     {
         "sentence": "Atlantis lifted Galileo from the launch pad at 12:54 p.m. EDT and released the craft from its cargo bay about six hours",
@@ -1829,7 +2121,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "lift.01",
-        "sentence_id": "1817_13"
+        "sentence_id": "1817_13",
+        "type": "physical"
     },
     {
         "sentence": "Atlantis lifted Galileo from the launch pad at 12:54 p.m. EDT and released the craft from its cargo bay about six hours",
@@ -1837,7 +2130,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "lift.01",
-        "sentence_id": "1817_13"
+        "sentence_id": "1817_13",
+        "type": "physical"
     },
     {
         "sentence": "Desperately hoping to spark sales, Nissan transferred 5,000 middle managers and plant workers to dealerships.",
@@ -1845,7 +2139,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "transfer.01",
-        "sentence_id": "0286_28"
+        "sentence_id": "0286_28",
+        "type": "physical"
     },
     {
         "sentence": "The cuckoo prefers the nests of other birds and heaves out their eggs.",
@@ -1853,7 +2148,8 @@
         "property": "-MER",
         "response": 5,
         "roleset": "heave.01",
-        "sentence_id": "1986_26"
+        "sentence_id": "1986_26",
+        "type": "physical"
     },
     {
         "sentence": "From the air, ribbons of yellow fire hose carry water from the bay to high-pressure nozzles trained on the site.",
@@ -1861,7 +2157,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "carry.01",
-        "sentence_id": "1870_108"
+        "sentence_id": "1870_108",
+        "type": "physical"
     },
     {
         "sentence": "From the air, ribbons of yellow fire hose carry water from the bay to high-pressure nozzles trained on the site.",
@@ -1869,7 +2166,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "carry.01",
-        "sentence_id": "1870_108"
+        "sentence_id": "1870_108",
+        "type": "physical"
     },
     {
         "sentence": "The space shuttle Atlantis boosted the Galileo spacecraft on its way to Jupiter, giving a big lift as well to an",
@@ -1877,7 +2175,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "boost.01",
-        "sentence_id": "1817_0"
+        "sentence_id": "1817_0",
+        "type": "physical"
     },
     {
         "sentence": "Atlantis lifted Galileo from the launch pad at 12:54 p.m. EDT and released the craft from its cargo bay about six hours",
@@ -1885,7 +2184,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "release.01",
-        "sentence_id": "1817_13"
+        "sentence_id": "1817_13",
+        "type": "physical"
     },
     {
         "sentence": "In the end, Teddy returns alone to America, leaving Ruth in Max's chair.",
@@ -1893,7 +2193,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "return.01",
-        "sentence_id": "1936_40"
+        "sentence_id": "1936_40",
+        "type": "physical"
     },
     {
         "sentence": "Days later, the thieves returned and dug out more, this time adding insult to injury.",
@@ -1901,7 +2202,8 @@
         "property": "-MER",
         "response": 5,
         "roleset": "dig.03",
-        "sentence_id": "1379_2"
+        "sentence_id": "1379_2",
+        "type": "physical"
     },
     {
         "sentence": "Days later, the thieves returned and dug out more, this time adding insult to injury.",
@@ -1909,7 +2211,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "dig.03",
-        "sentence_id": "1379_2"
+        "sentence_id": "1379_2",
+        "type": "physical"
     },
     {
         "sentence": "When supplies are short, it often hands them over only in exchange for milk or grain.",
@@ -1917,7 +2220,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "hand.02",
-        "sentence_id": "1146_103"
+        "sentence_id": "1146_103",
+        "type": "physical"
     },
     {
         "sentence": "Red tractors gingerly picked at the rubble while jackhammers tried to break up some of the massive slabs of concrete.",
@@ -1925,7 +2229,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "pick.09",
-        "sentence_id": "1667_5"
+        "sentence_id": "1667_5",
+        "type": "physical"
     },
     {
         "sentence": "Red tractors gingerly picked at the rubble while jackhammers tried to break up some of the massive slabs of concrete.",
@@ -1933,7 +2238,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "pick.09",
-        "sentence_id": "1667_5"
+        "sentence_id": "1667_5",
+        "type": "physical"
     },
     {
         "sentence": "Red tractors gingerly picked at the rubble while jackhammers tried to break up some of the massive slabs of concrete.",
@@ -1941,7 +2247,17 @@
         "property": "INTL",
         "response": 5,
         "roleset": "try.01",
-        "sentence_id": "1667_5"
+        "sentence_id": "1667_5",
+        "type": "physical"
+    },
+    {
+        "sentence": "Red tractors gingerly picked at the rubble while jackhammers tried to break up some of the massive slabs of concrete.",
+        "tgt_token": "slabs",
+        "property": "COS",
+        "response": 5,
+        "roleset": "break.01",
+        "sentence_id": "1667_5",
+        "type": "physical"
     },
     {
         "sentence": "The persecution pursued the Rothschilds across Europe as the Nazis grabbed countries, confiscating the family's property",
@@ -1949,7 +2265,8 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "pursue.01",
-        "sentence_id": "0741_15"
+        "sentence_id": "0741_15",
+        "type": "physical"
     },
     {
         "sentence": "The persecution pursued the Rothschilds across Europe as the Nazis grabbed countries, confiscating the family's property",
@@ -1957,23 +2274,26 @@
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "pursue.01",
-        "sentence_id": "0741_15"
+        "sentence_id": "0741_15",
+        "type": "physical"
     },
     {
-        "sentence": "When it's time for their biannual powwow, the nation's manufacturing titans typically jet off to the sunny confines of",
+        "sentence": "When it's time for their biannual powwow, the nation's manufacturing titans typically jet off to the sunny confines of a place",
         "tgt_token": "titans",
         "property": "VOL::MOT",
         "response": 5,
         "roleset": "jet.01",
-        "sentence_id": "0010_0"
+        "sentence_id": "0010_0",
+        "type": "physical"
     },
     {
-        "sentence": "When it's time for their biannual powwow, the nation's manufacturing titans typically jet off to the sunny confines of",
+        "sentence": "When it's time for their biannual powwow, the nation's manufacturing titans typically jet off to the sunny confines of a place",
         "tgt_token": "confines",
         "property": "EXIST",
         "response": 5,
         "roleset": "jet.01",
-        "sentence_id": "0010_0"
+        "sentence_id": "0010_0",
+        "type": "physical"
     },
     {
         "sentence": "Tankers from the Latvian port of Ventspils each year unload 25 million gallons of fuel into a special tank farm at the",
@@ -1981,7 +2301,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "unload.02",
-        "sentence_id": "2151_26"
+        "sentence_id": "2151_26",
+        "type": "physical"
     },
     {
         "sentence": "Tankers from the Latvian port of Ventspils each year unload 25 million gallons of fuel into a special tank farm at the",
@@ -1989,7 +2310,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "unload.02",
-        "sentence_id": "2151_26"
+        "sentence_id": "2151_26",
+        "type": "physical"
     },
     {
         "sentence": "Tankers from the Latvian port of Ventspils each year unload 25 million gallons of fuel into a special tank farm at the",
@@ -1997,7 +2319,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "unload.02",
-        "sentence_id": "2151_26"
+        "sentence_id": "2151_26",
+        "type": "physical"
     },
     {
         "sentence": "When Mrs. Thatcher cut the top tax rate to 40 %, Mr. Lawson flooded the country with money to prevent the pound from",
@@ -2005,7 +2328,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "flood.01",
-        "sentence_id": "0571_9"
+        "sentence_id": "0571_9",
+        "type": "physical"
     },
     {
         "sentence": "When Mrs. Thatcher cut the top tax rate to 40 %, Mr. Lawson flooded the country with money to prevent the pound from",
@@ -2013,7 +2337,8 @@
         "property": "+MER",
         "response": 5,
         "roleset": "flood.01",
-        "sentence_id": "0571_9"
+        "sentence_id": "0571_9",
+        "type": "physical"
     },
     {
         "sentence": "The great silver clouds on the horizon build themselves on the pale water.",
@@ -2021,7 +2346,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.02",
-        "sentence_id": "1323_13"
+        "sentence_id": "1323_13",
+        "type": "physical"
     },
     {
         "sentence": "They build extended minivans and the Dodge Spirit, Acclaim, Shadow and Sundance.",
@@ -2029,15 +2355,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "0775_10"
-    },
-    {
-        "sentence": "Even at this early stage, drugs caused additional concerns.",
-        "tgt_token": "concerns",
-        "property": "DES",
-        "response": 5,
-        "roleset": "cause.01",
-        "sentence_id": "2013_78"
+        "sentence_id": "0775_10",
+        "type": "physical"
     },
     {
         "sentence": "This year he produced a men's line and offers dyed furs in red, cherry red, violet, royal blue and forest green.",
@@ -2045,7 +2364,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "produce.01",
-        "sentence_id": "1586_30"
+        "sentence_id": "1586_30",
+        "type": "physical"
     },
     {
         "sentence": "The Ministry of Foreign Economic Relations and Trade set up a special bureau last month to monitor the issue of import",
@@ -2053,7 +2373,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "set.03",
-        "sentence_id": "1469_29"
+        "sentence_id": "1469_29",
+        "type": "physical"
     },
     {
         "sentence": "Dow Jones also publishes Barron's magazine, other periodicals and community newspapers and operates electronic business",
@@ -2061,7 +2382,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "publish.01",
-        "sentence_id": "1551_13"
+        "sentence_id": "1551_13",
+        "type": "physical"
     },
     {
         "sentence": "Another poked a hole in the heel of his shoe.",
@@ -2069,23 +2391,17 @@
         "property": "DES",
         "response": 5,
         "roleset": "poke.01",
-        "sentence_id": "1121_44"
+        "sentence_id": "1121_44",
+        "type": "physical"
     },
     {
-        "sentence": "Mr. Vinson, the professor, got the law bug and formed Litigation Sciences.",
-        "tgt_token": "Sciences",
-        "property": "DES",
+        "sentence": "Another poked a hole in the heel of his shoe.",
+        "tgt_token": "heel",
+        "property": "EXIST",
         "response": 5,
-        "roleset": "form.01",
-        "sentence_id": "1267_47"
-    },
-    {
-        "sentence": "Hospital Regulation Sparks Kentucky Feud",
-        "tgt_token": "Feud",
-        "property": "DES",
-        "response": 5,
-        "roleset": "spark.01",
-        "sentence_id": "0416_0"
+        "roleset": "poke.01",
+        "sentence_id": "1121_44",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Jobs, co-founder of Apple Computer Inc., founded Next four years ago in the hopes of fomenting a revolution in the",
@@ -2093,15 +2409,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "found.01",
-        "sentence_id": "1971_3"
-    },
-    {
-        "sentence": "But only four days after that, Mr. Bush resurrected the veto threat.",
-        "tgt_token": "threat",
-        "property": "DES",
-        "response": 5,
-        "roleset": "resurrect.01",
-        "sentence_id": "1094_8"
+        "sentence_id": "1971_3",
+        "type": "physical"
     },
     {
         "sentence": "Medco Research developed the drug and licensed it to Lyphomed for sale in the U.S. and Canada.",
@@ -2109,15 +2418,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "develop.02",
-        "sentence_id": "0318_4"
-    },
-    {
-        "sentence": "Even his routine business transactions caused trouble, according to the grand jury report.",
-        "tgt_token": "trouble",
-        "property": "DES",
-        "response": 5,
-        "roleset": "cause.01",
-        "sentence_id": "0267_74"
+        "sentence_id": "0318_4",
+        "type": "physical"
     },
     {
         "sentence": "Elisa Hollis launched a diaper service last year because State College, Pa., where she lives, did n't have one.",
@@ -2125,15 +2427,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "launch.01",
-        "sentence_id": "0120_44"
-    },
-    {
-        "sentence": "Nippon Kangyo's moves puzzled traders and created confusion among potential investors, many of whom decided to stay out",
-        "tgt_token": "confusion",
-        "property": "DES",
-        "response": 5,
-        "roleset": "create.01",
-        "sentence_id": "0671_56"
+        "sentence_id": "0120_44",
+        "type": "physical"
     },
     {
         "sentence": "IBM and MCA formed Discovision in 1979 to make laser-read optical products.",
@@ -2141,15 +2436,17 @@
         "property": "DES",
         "response": 5,
         "roleset": "form.01",
-        "sentence_id": "1722_2"
+        "sentence_id": "1722_2",
+        "type": "physical"
     },
     {
         "sentence": "He grows rye and potatoes for a few hens, five cows and 25 piglets.",
-        "tgt_token": "potatoes",
+        "tgt_token": "rye",
         "property": "DES",
         "response": 5,
         "roleset": "grow.03",
-        "sentence_id": "1146_68"
+        "sentence_id": "1146_68",
+        "type": "physical"
     },
     {
         "sentence": "He grows rye and potatoes for a few hens, five cows and 25 piglets.",
@@ -2157,23 +2454,17 @@
         "property": "INTL",
         "response": 5,
         "roleset": "grow.03",
-        "sentence_id": "1146_68"
-    },
-    {
-        "sentence": "Fidelity, for example, prepared ads several months ago in case of a market plunge.",
-        "tgt_token": "ads",
-        "property": "DES",
-        "response": 5,
-        "roleset": "prepare.01",
-        "sentence_id": "2201_12"
+        "sentence_id": "1146_68",
+        "type": "physical"
     },
     {
         "sentence": "The Phillips plant makes polyethylene, polypropylene and other plastic products.",
-        "tgt_token": "products",
+        "tgt_token": "polyethylene",
         "property": "DES",
         "response": 5,
         "roleset": "make.01",
-        "sentence_id": "1320_9"
+        "sentence_id": "1320_9",
+        "type": "physical"
     },
     {
         "sentence": "So Mr. Carter formed three new Army divisions and gave them to a new bureaucracy in Tampa called the Rapid Deployment",
@@ -2181,15 +2472,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "form.01",
-        "sentence_id": "2112_24"
-    },
-    {
-        "sentence": "Carat's Gross brothers invented the idea of large-scale buying of media space.",
-        "tgt_token": "idea",
-        "property": "DES",
-        "response": 5,
-        "roleset": "invent.01",
-        "sentence_id": "1844_40"
+        "sentence_id": "2112_24",
+        "type": "physical"
     },
     {
         "sentence": "The assembly plant builds the Cadillac DeVille, Chevrolet Caprice and Oldsmobile Cutlass Ciera Wagon.",
@@ -2197,7 +2481,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "0775_2"
+        "sentence_id": "0775_2",
+        "type": "physical"
     },
     {
         "sentence": "The assembly plant builds the Cadillac DeVille, Chevrolet Caprice and Oldsmobile Cutlass Ciera Wagon.",
@@ -2205,7 +2490,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "0775_2"
+        "sentence_id": "0775_2",
+        "type": "physical"
     },
     {
         "sentence": "The tumor, he suggested, developed when the second, normal copy also was damaged.",
@@ -2213,23 +2499,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "develop.01",
-        "sentence_id": "0465_39"
-    },
-    {
-        "sentence": "At Shearson Lehman, executives created potential new commercials Friday night and throughout the weekend, then had to",
-        "tgt_token": "commercials",
-        "property": "DES",
-        "response": 5,
-        "roleset": "create.01",
-        "sentence_id": "2201_36"
-    },
-    {
-        "sentence": "Courts made the assumption that all DES pills were essentially the same, and created a market-share test so that damages",
-        "tgt_token": "test",
-        "property": "DES",
-        "response": 5,
-        "roleset": "create.01",
-        "sentence_id": "0130_9"
+        "sentence_id": "0465_39",
+        "type": "physical"
     },
     {
         "sentence": "She and her husband started a small printing business and need the car for work as well as for weekend jaunts.",
@@ -2237,7 +2508,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "start.01",
-        "sentence_id": "2140_15"
+        "sentence_id": "2140_15",
+        "type": "physical"
     },
     {
         "sentence": "Exxon Corp. built the plant but closed it in 1985 and sold off much of the equipment to dismantling contractors, from",
@@ -2245,7 +2517,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "1748_5"
+        "sentence_id": "1748_5",
+        "type": "physical"
     },
     {
         "sentence": "Mazda makes the Tracer for Ford.",
@@ -2253,7 +2526,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "make.01",
-        "sentence_id": "0451_2"
+        "sentence_id": "0451_2",
+        "type": "physical"
     },
     {
         "sentence": "Mazda makes the Tracer for Ford.",
@@ -2261,15 +2535,8 @@
         "property": "INTL",
         "response": 5,
         "roleset": "make.01",
-        "sentence_id": "0451_2"
-    },
-    {
-        "sentence": "Thus have Charles Colson and Jeb Magruder launched successful post-Watergate careers at the pulpit.",
-        "tgt_token": "careers",
-        "property": "DES",
-        "response": 5,
-        "roleset": "launch.01",
-        "sentence_id": "0909_31"
+        "sentence_id": "0451_2",
+        "type": "physical"
     },
     {
         "sentence": "Twenty years later, two California academics, Stanley Cohen and Herbert Boyer, made `` recombinant '' DNA, transplanting",
@@ -2277,15 +2544,17 @@
         "property": "DES",
         "response": 5,
         "roleset": "make.01",
-        "sentence_id": "0339_4"
+        "sentence_id": "0339_4",
+        "type": "physical"
     },
     {
-        "sentence": "The Hastings, Mich., concern makes piston rings, filters and fuel pumps.",
-        "tgt_token": "pumps",
+        "sentence": "The company makes piston rings, filters and fuel pumps.",
+        "tgt_token": "rings",
         "property": "DES",
         "response": 5,
         "roleset": "make.01",
-        "sentence_id": "1513_2"
+        "sentence_id": "1513_2",
+        "type": "physical"
     },
     {
         "sentence": "Some pretty seamy stuff built the turn-of-the-century families ' Fifth Avenue and Newport palazzi and endowed their",
@@ -2293,7 +2562,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "1986_50"
+        "sentence_id": "1986_50",
+        "type": "physical"
     },
     {
         "sentence": "Accordingly, the hidebound traditionalist reconstructed hypothetical organisms from the Burgess fossils in such a way",
@@ -2301,7 +2571,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "reconstruct.01",
-        "sentence_id": "1158_15"
+        "sentence_id": "1158_15",
+        "type": "physical"
     },
     {
         "sentence": "The three Japanese companies build the body sections of the 767, accounting for a combined 15 % of the aircraft.",
@@ -2309,7 +2580,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "0040_2"
+        "sentence_id": "0040_2",
+        "type": "physical"
     },
     {
         "sentence": "The government built ports, bridges, highways, schools, hospitals and railways.",
@@ -2317,7 +2589,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "1120_3"
+        "sentence_id": "1120_3",
+        "type": "physical"
     },
     {
         "sentence": "The government built ports, bridges, highways, schools, hospitals and railways.",
@@ -2325,7 +2598,8 @@
         "property": "DES",
         "response": 5,
         "roleset": "build.01",
-        "sentence_id": "1120_3"
+        "sentence_id": "1120_3",
+        "type": "physical"
     },
     {
         "sentence": "A toxic-waste-dump fire destroyed part of an interstate highway this summer.",
@@ -2333,7 +2607,17 @@
         "property": "COS",
         "response": 4,
         "roleset": "destroy.01",
-        "sentence_id": "1615_65"
+        "sentence_id": "1615_65",
+        "type": "physical"
+    },
+    {
+        "sentence": "A toxic-waste-dump fire destroyed part of an interstate highway this summer.",
+        "tgt_token": "part",
+        "property": "COS",
+        "response": 4,
+        "roleset": "destroy.01",
+        "sentence_id": "1615_65",
+        "type": "physical"
     },
     {
         "sentence": "Sequa makes and repairs jet engines.",
@@ -2341,7 +2625,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "repair.01",
-        "sentence_id": "2405_3"
+        "sentence_id": "2405_3",
+        "type": "physical"
     },
     {
         "sentence": "At San Francisco International Airport, shock waves wrecked the control tower, knocking down computers and shattering",
@@ -2349,7 +2634,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "wreck.01",
-        "sentence_id": "1699_39"
+        "sentence_id": "1699_39",
+        "type": "physical"
     },
     {
         "sentence": "At San Francisco International Airport, shock waves wrecked the control tower, knocking down computers and shattering",
@@ -2357,7 +2643,8 @@
         "property": "MOT",
         "response": 5,
         "roleset": "wreck.01",
-        "sentence_id": "1699_39"
+        "sentence_id": "1699_39",
+        "type": "physical"
     },
     {
         "sentence": "The March 24 oil spill soiled hundreds of miles of shoreline along Alaska's southern coast and wreaked havoc with",
@@ -2365,7 +2652,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "soil.01",
-        "sentence_id": "0620_3"
+        "sentence_id": "0620_3",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Fischer plows his own fields, sows his own corn and sunflowers, and feeds his own sheep.",
@@ -2373,7 +2661,8 @@
         "property": "COS",
         "response": 4,
         "roleset": "plow.01",
-        "sentence_id": "1760_25"
+        "sentence_id": "1760_25",
+        "type": "physical"
     },
     {
         "sentence": "Few telephone lines snapped.",
@@ -2381,7 +2670,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "snap.05",
-        "sentence_id": "1870_14"
+        "sentence_id": "1870_14",
+        "type": "physical"
     },
     {
         "sentence": "On Sept. 7, I wrote on these pages about the killing and capturing of 10,000 Ethiopian soldiers by Eritrean and Tigrean",
@@ -2389,7 +2679,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "capture.01",
-        "sentence_id": "1424_21"
+        "sentence_id": "1424_21",
+        "type": "physical"
     },
     {
         "sentence": "A few miles past Radzymin, a dirt road narrows to a track of sand and leads into Zalubice, a village of tumbledown",
@@ -2397,7 +2688,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "narrow.01",
-        "sentence_id": "1146_66"
+        "sentence_id": "1146_66",
+        "type": "physical"
     },
     {
         "sentence": "A few miles past Radzymin, a dirt road narrows to a track of sand and leads into Zalubice, a village of tumbledown",
@@ -2405,7 +2697,8 @@
         "property": "EXIST",
         "response": 5,
         "roleset": "narrow.01",
-        "sentence_id": "1146_66"
+        "sentence_id": "1146_66",
+        "type": "physical"
     },
     {
         "sentence": "Part of the bridge collapsed in the quake, which registered 6.9 on the Richter scale.",
@@ -2413,7 +2706,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "collapse.01",
-        "sentence_id": "1448_3"
+        "sentence_id": "1448_3",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Engelken turned off the motor and rolled down the window.",
@@ -2421,7 +2715,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "turn.01",
-        "sentence_id": "0758_46"
+        "sentence_id": "0758_46",
+        "type": "physical"
     },
     {
         "sentence": "Mr. Engelken turned off the motor and rolled down the window.",
@@ -2429,7 +2724,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "roll.01",
-        "sentence_id": "0758_46"
+        "sentence_id": "0758_46",
+        "type": "physical"
     },
     {
         "sentence": "Within the past two months a bomb exploded in the offices of the El Espectador in Bogota, destroying a major part of its",
@@ -2437,7 +2733,8 @@
         "property": "COS",
         "response": 5,
         "roleset": "explode.01",
-        "sentence_id": "0764_6"
+        "sentence_id": "0764_6",
+        "type": "physical"
     },
     {
         "sentence": "Within the past two months a bomb exploded in the offices of the El Espectador in Bogota, destroying a major part of its",
@@ -2445,118 +2742,175 @@
         "property": "COS",
         "response": 5,
         "roleset": "destroy.01",
-        "sentence_id": "0764_6"
+        "sentence_id": "0764_6",
+        "type": "physical"
     },
-    {"sentence": "DATE : 2002-01-17 COUNTRY : IRAN -LRB- IR -RRB- TOPIC : NARCOTICS ; MILITARY SUMMARY : THIRTEEN DRUG TRAFFICKERS WERE KILLED AND 10 ARRESTED IN IRAN ANTI-DRUG SWEEPS .",
-        "tgt_token": "TRAFFICKERS",
+    {"sentence": "date : 2002-01-17 country : Iran -LRB- IR -RRB- topic : narcotics ; military summary : thirteen drug traffickers were killed and 10 arrested in Iran anti-drug sweeps .",
+        "tgt_token": "traffickers",
         "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020117_0270"},
-    {"sentence": "PARLIAMENT APPROVED PLANS IN MAY 2001 TO BUILD AN ANTI-DRUGS WALL ALONG THE 925-KILOMETRE -LRB- 560-MILE -RRB- BORDER WITH AFGHANISTAN .",
-        "tgt_token": "WALL",
+        "sentence_id": "PROXY_AFP_ENG_20020117_0270",
+        "type": "physical"
+    },
+    {"sentence": "Parliament approved plans in May 2001 to build an anti-drugs wall along the 925-kilometer -LRB- 560-mile -RRB- border with Afghanistan.",
+        "tgt_token": "wall",
         "property": "DES",
-        "sentence_id": "PROXY_AFP_ENG_20020117_0270"},
-    {"sentence": "B. AFGHAN FARMERS RESUMED GROWING OPIUM POPPIES AFTER THE MILITIA WAS OVERTHROWN IN DECEMBER 2001 .",
-        "tgt_token": "POPPIES",
+        "sentence_id": "PROXY_AFP_ENG_20020117_0270",
+        "type": "physical"
+    },
+    {"sentence": "B. Afghan farmers resumed growing opium poppies after the militia was overthrown in December 2001 .",
+        "tgt_token": "poppies",
         "property": "DES",
-        "sentence_id": "PROXY_AFP_ENG_20020117_0270"},
-    {"sentence": "FEBRUARY 28 , 2002 KABUL OFFICIALS ANNOUNCED THAT AFGHAN POLICE ARE CREATING THEIR FIRST ANTI-NARCOTICS UNITS WITH THE HELP OF THE UNITED NATIONS DUE TO CONCERN THAT THE COUNTRY COULD AGAIN BECOME A MAJOR PRODUCER OF OPIUM .",
-        "tgt_token": "UNITS",
+        "sentence_id": "PROXY_AFP_ENG_20020117_0270",
+        "type": "physical"
+    },
+    {"sentence": "February 28 , 2002 Kabul officials announced that Afghan police are creating their first anti-narcotics units with the help of the United Nations due to concern that the country could again become a major producer of opium .",
+        "tgt_token": "units",
         "property": "DES",
-        "sentence_id": "PROXY_AFP_ENG_20020301_0316"},
-    {"sentence": "AFGHAN AUTHORITIES WILL STRENGTHEN THE BORDERS AROUND AFGHANISTAN .",
-        "tgt_token": "BORDERS",
+        "sentence_id": "PROXY_AFP_ENG_20020301_0316",
+        "type": "physical"
+    },
+    {"sentence": "Afghan authorities will strengthen the borders around Afghanistan.",
+        "tgt_token": "borders",
         "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020301_0316"},
-    {"sentence": "APPROXIMATELY 11000 RUSSIAN GUARDS PATROL THE 1200-KILOMETRE -LRB- 750-MILE -RRB- BORDER BETWEEN RUSSIA AND AFGHANISTAN UNDER A 1992 AGREEMENT SIGNED BY MOSCOW AND DUSHANBE .",
-        "tgt_token": "GUARDS",
+        "sentence_id": "PROXY_AFP_ENG_20020301_0316",
+        "type": "physical"
+    },
+    {"sentence": "Approximately 11000 Russian guards patrol the 1200-kilometer -LRB- 750-mile -RRB- border between Russia and Afghanistan under a 1992 agreement signed by Moscow and Dushanbe .",
+        "tgt_token": "guards",
         "property": "VOL::MOT",
-        "sentence_id": "PROXY_AFP_ENG_20020301_0316"},
-    {"sentence": "DESPERATE AFGHAN FARMERS RESUMED GROWING OPIUM POPPIES SOON AFTER THE HARD-LINE MILITIA LOST POWER IN DECEMBER 2001 .",
-        "tgt_token": "POPPIES",
+        "sentence_id": "PROXY_AFP_ENG_20020301_0316",
+        "type": "physical"
+    },
+    {"sentence": "Desperate Afghan farmers resumed growing opium poppies soon after the hard-line militia lost power in December 2001 .",
+        "tgt_token": "poppies",
         "property": "DES",
-        "sentence_id": "PROXY_AFP_ENG_20020123_0334"},
-    {"sentence": "DATE : 2002-04-08 COUNTRY : UNITED KINGDOM -LRB- GB -RRB- TOPIC : INTERNATIONAL ; GOVERNMENT ; WEAPONS ; MEDIA ; TECHNOLOGY ; TERRORISM ; PROLIFERATION SUMMARY : DECLASSIFIED BRITISH MINISTRY OF DEFENSE DOCUMENTS EXPLAIN HOW BRITAIN MADE ITS FIRST NUCLEAR BOMB .",
-        "tgt_token": "BOMB",
+        "sentence_id": "PROXY_AFP_ENG_20020123_0334",
+        "type": "physical"
+    },
+    {"sentence": "Date : 2002-04-08 Country : United Kingdom -LRB- GB -RRB- Declassified British Ministry of Defense documents explain how Britain made its first nuclear bomb .",
+        "tgt_token": "bomb",
         "property": "DES",
-        "sentence_id": "PROXY_AFP_ENG_20020414_0542"},
-    {"sentence": "THIS ANNOUNCEMENT WAS IN RESPONSE TO INCREASING FOREIGN CRITICISM OF THE WAY DOGS ARE SLAUGHTERED IN SOUTH KOREA .",
-        "tgt_token": "DOGS",
+        "sentence_id": "PROXY_AFP_ENG_20020414_0542",
+        "type": "physical"
+    },
+    {"sentence": "This announcement was in response to increasing foreign criticim of the way dogs are slaughtered in South Korea .",
+        "tgt_token": "dogs",
         "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020111_0093"},
-    {"sentence": "A. FOR EXAMPLE , ACCORDING TO A CANADIAN GOVERNMENT ESTIMATE THE LOVE BUG LAUNCHED IN MAY 2000 CAUSED 6.7 BILLION U.S. DOLLARS IN DAMAGE AND DISRUPTED CANADIAN GOVERNMENT SYSTEMS .",
-        "tgt_token": "SYSTEMS",
+        "sentence_id": "PROXY_AFP_ENG_20020111_0093",
+        "type": "physical"
+    },
+    {"sentence": "According to a Canadian government estimate the love bug launced in May 2000 caused 6.7 billion U.S. dollars in damage and disrupted Canadian government systems .",
+        "tgt_token": "systems",
         "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020123_0346"},
-    {"sentence": "A SPOKESMAN FOR ROSOBORONEXPORT WAS QUOTED BY THE INTERFAX NEWS AGENCY AS STATING THAT QUINTAO MET BELYANINOV TO DISCUSS COOPERATION IN VARIOUS AREAS IN ADDITION TO THE PREPARATION OF SPECIFIC CONTRACTS FOR RUSSIAN ARMS SALES TO BRAZIL .",
-        "tgt_token": "QUINTAO",
+        "sentence_id": "PROXY_AFP_ENG_20020123_0346",
+        "type": "physical"
+    },
+    {"sentence": "A spokesman for Rosoborn was quoted by the Interfax News Agency as stating that Quintao met Belyaninov to discuss cooperation in various areas .",
+        "tgt_token": "Quintao",
         "property": "VOL",
-        "sentence_id": "PROXY_AFP_ENG_20020408_0348"},
-    {"sentence": "A. N.R. MOHANTY STATED THAT AN AGREEMENT HAD BEEN SIGNED BETWEEN THE DEFENSE RESEARCH AND DEVELOPMENT ORGANISATION , HINDUSTAN AERONAUTICS LIMITED AND THE INDIAN AIR FORCE TO UPGRADE INDIA'S AGEING FLEET OF MIG-27 M AIRCRAFT .",
-        "tgt_token": "FLEET",
+        "sentence_id": "PROXY_AFP_ENG_20020408_0348",
+        "type": "nonphysical"
+    },
+    {"sentence": "N.R. Mohanty stated that initially 40 aircraft will be upgraded .",
+        "tgt_token": "aircraft",
         "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020404_0305"},
-    {"sentence": "N.R. MOHANTY STATED THAT INITIALLY 40 AIRCRAFT WILL BE UPGRADED .",
-        "tgt_token": "AIRCRAFT",
-        "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020404_0305"},
-    {"sentence": "N.R. MOHANTY STATED THAT HINDUSTAN AERONAUTICS LIMITED WILL ALSO MANUFACTURE THE 920 ENGINES FOR THE SUKHOI 30 MK FIGHTER JETS .",
-        "tgt_token": "ENGINES",
+        "sentence_id": "PROXY_AFP_ENG_20020404_0305",
+        "type": "physical"
+    },
+    {"sentence": "N.R. Mohanty stated that Hindustan Aeronautics Limited will also manufacture the 920 engines for the Sukhoi 30 MK fighter jets .",
+        "tgt_token": "engines",
         "property": "DES",
-        "sentence_id": "PROXY_AFP_ENG_20020404_0305"},
-    {"sentence": "HINDUSTAN AERONAUTICS LIMITED HAS PAID A LICENCE FEE OF 286 MILLION UNITED STATES DOLLARS TO RUSSIA TO BE ABLE TO MAKE THE SUKHOI 30 MK FIGHTER JETS .",
-        "tgt_token": "LIMITED",
+        "sentence_id": "PROXY_AFP_ENG_20020404_0305",
+        "type": "physical"
+    },
+    {"sentence": "Hindustan Aeronautics Limited has paid a licence fee of 286 million United States dollars to Russia to be able to make the Sukhoi 30 MK fighter jets .",
+        "tgt_token": "Limited",
         "property": "VOL",
-        "sentence_id": "PROXY_AFP_ENG_20020404_0305"},
-    {"sentence": "RUSSIAN OFFICIALS BLAMED THE INDIAN GOVERNMENT'S INTRANSIGENCE FOR THE DELAY .",
-        "tgt_token": "OFFICIALS",
+        "sentence_id": "PROXY_AFP_ENG_20020404_0305",
+        "type": "nonphysical"
+    },
+    {"sentence": "Russian officials blamed the Indian governments's intransigence for the delay .",
+        "tgt_token": "officials",
         "property": "VOL",
-        "sentence_id": "PROXY_AFP_ENG_20020404_0305"},
-    {"sentence": "A. NEIGHBORING KYRGYZSTAN HAS ALSO EXPERIENCED RAIDS BY TALIBAN-BACKED ISLAMIC MILITANTS IN RECENT YEARS .",
-        "tgt_token": "KYRGYZSTAN",
-        "property": "COS",
-        "sentence_id": "PROXY_AFP_ENG_20020210_0074"},
+        "sentence_id": "PROXY_AFP_ENG_20020404_0305",
+        "type": "nonphysical"
+    },
+    {"sentence": "neighboring Kyrgyzstan has also experienced raids by Taliban-backed Islamic militants in recent years .",
+        "tgt_token": "militants",
+        "property": "VOL",
+        "sentence_id": "PROXY_AFP_ENG_20020210_0074",
+        "type": "physical" 
+    },
     {"sentence": "The US is now fighting a war for a nation who government they have no direct ties with .",
         "tgt_token": "US",
         "property": "VOL",
-        "sentence_id": "soc.culture.iraq_20050211.0445"},
+        "sentence_id": "soc.culture.iraq_20050211.0445",
+        "type": "physical"
+    },
     {"sentence": "I closed it , noticed it was a bit stiff to close and started cleaning the house as I do every thurs night .",
         "tgt_token": "house",
         "property": "COS",
-        "sentence_id": "1b268b27094ba9c5feb11192dad940ab"},
+        "sentence_id": "1b268b27094ba9c5feb11192dad940ab",
+        "type": "physical"
+    },
     {"sentence": "When I got to our bedroom I noticed OH's safe which is screwed to the wall at the bottom of our wardrobe was missing .",
         "tgt_token": "safe",
         "property": "MOT",
-        "sentence_id": "1b268b27094ba9c5feb11192dad940ab"},
+        "sentence_id": "1b268b27094ba9c5feb11192dad940ab",
+        "type": "physical"
+    },
     {"sentence": "On the fourth day of his stay , he was moved out of the ICU to the step-down unit , with a diagnosis of ICU Psychosis secondary to narcotic administration and post thoracostomy .",
         "tgt_token": "he",
         "property": "MOT",
-        "sentence_id": "misc.legal.moderated_20050129.2225"},
+        "sentence_id": "misc.legal.moderated_20050129.2225",
+        "type": "physical"
+    },
     {"sentence": "On the fourth day of his stay , he was moved out of the ICU to the step-down unit , with a diagnosis of ICU Psychosis secondary to narcotic administration and post thoracostomy . ",
         "tgt_token": "ICU",
         "property": "EXIST",
-        "sentence_id": "misc.legal.moderated_20050129.2225"},
+        "sentence_id": "misc.legal.moderated_20050129.2225",
+        "type": "physical"
+    },
     {"sentence": "During the early evening hours of his sixth hospital day , he got up , dressed , pulled his chest tube out and managed to get out of the hospital and across four lanes of busy evening traffic , to our apartment .",
         "tgt_token": "he",
         "property": "VOL::MOT",
-        "sentence_id": "misc.legal.moderated_20050129.2225"},
+        "sentence_id": "misc.legal.moderated_20050129.2225",
+        "type": "physical"
+    },
     {"sentence": "A short time later , two police officers showed up and told me they had to take him back to the hospital .",
         "tgt_token": "officers",
         "property": "VOL::MOT",
-        "sentence_id": "misc.legal.moderated_20050129.2225"},
+        "sentence_id": "misc.legal.moderated_20050129.2225",
+        "type": "physical"
+    },
     {"sentence": "He went back with the officers , gave them no problems at all .",
         "tgt_token": "He",
         "property": "VOL::MOT",
-        "sentence_id": "misc.legal.moderated_20050129.2225"},
+        "sentence_id": "misc.legal.moderated_20050129.2225",
+        "type": "physical"
+    },
     {"sentence": "We did n't really get anywhere so he dropped me home.",
         "tgt_token": "me",
         "property": "MOT",
-        "sentence_id": "90e2a980c22e41e2b25666f676458343"},
+        "sentence_id": "90e2a980c22e41e2b25666f676458343",
+        "type": "physical"
+    },
+    {"sentence": "We did n't really get anywhere so he dropped me home.",
+        "tgt_token": "home",
+        "property": "EXIST",
+        "sentence_id": "90e2a980c22e41e2b25666f676458343",
+        "type": "physical"
+    },
     {"sentence": "When she came to visit in Italy after BabyD was born .",
         "tgt_token": "she",
         "property": "VOL::MOT",
-        "sentence_id": "57026b7bcb8f855de3e26d572db35285"},
+        "sentence_id": "57026b7bcb8f855de3e26d572db35285",
+        "type": "physical"
+    },
     {"sentence": "She has a broken wrist that is healing slowly and still requires prescription pain management .",
         "tgt_token": "wrist",
         "property": "COS",
-        "sentence_id": "57026b7bcb8f855de3e26d572db35285"}
+        "sentence_id": "57026b7bcb8f855de3e26d572db35285",
+        "type": "physical"
+    }
 ]
