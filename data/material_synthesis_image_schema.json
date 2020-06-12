@@ -1,4 +1,4 @@
-{"file": "101016jjallcom201511182.txt",
+[{"file": "101016jjallcom201511182.txt",
   "sentence": "NH4F (50% excess) was dissolved in 25 mL of water (solution A).",
   "fd1": "Autonomous",
   "fd2": "COS",
@@ -273,4 +273,4 @@
   "fd1": "Instrument",
   "fd2": "COS",
   "fd3": "NONE"}
-  ]
+]
