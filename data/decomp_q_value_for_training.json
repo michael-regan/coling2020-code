@@ -282,7 +282,7 @@
     {
         "sentence": "Petty criminals and street people looking for excitement attach themselves like remora to the fringes of the crowd and",
         "tgt_token": "criminals",
-        "property": "VOL",
+        "property": "VOL::+MER",
         "response": 5,
         "roleset": "attach.01",
         "sentence_id": "0290_21",
@@ -291,7 +291,7 @@
     {
         "sentence": "Many went bargain-hunting.",
         "tgt_token": "Many",
-        "property": "VOL",
+        "property": "VOL::MOT",
         "response": 5,
         "roleset": "go.05",
         "sentence_id": "2276_2",
@@ -300,7 +300,7 @@
     {
         "sentence": "I walked along Shattuck between Delaware and Cedar at a few minutes before eight this morning.",
         "tgt_token": "I",
-        "property": "VOL",
+        "property": "VOL::MOT",
         "response": 5,
         "roleset": "walk.01",
         "sentence_id": "1778_139",
